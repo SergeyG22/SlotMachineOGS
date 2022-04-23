@@ -28,12 +28,16 @@ file(GLOB sources
         "${PROJECT_SOURCE_DIR}/include/Controller/*.hpp"
         "${PROJECT_SOURCE_DIR}/src/Controller/*.cpp"
         "${PROJECT_SOURCE_DIR}/src/Controller/*.c"
+		"${PROJECT_SOURCE_DIR}/include/Model/*.h"
+        "${PROJECT_SOURCE_DIR}/include/Model/*.hpp"
+        "${PROJECT_SOURCE_DIR}/src/Model/*.cpp"
+        "${PROJECT_SOURCE_DIR}/src/Model/*.c"
 		"${PROJECT_SOURCE_DIR}/src/*.cpp"
         "${PROJECT_SOURCE_DIR}/src/*.c"
 		"${PROJECT_SOURCE_DIR}/include/*.h"
         "${PROJECT_SOURCE_DIR}/include/*.hpp"
 )
-#
+
 file(GLOB tests						   
 		"${PROJECT_SOURCE_DIR}/tests/*.cpp"
 		"${PROJECT_SOURCE_DIR}/tests/*.c"
