@@ -15,11 +15,25 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 enable_testing()
 
-file(GLOB sources 					  
+file(GLOB sources
+		"${PROJECT_SOURCE_DIR}/include/View/*.h"
+        "${PROJECT_SOURCE_DIR}/include/View/*.hpp"
+        "${PROJECT_SOURCE_DIR}/src/View/*.cpp"
+        "${PROJECT_SOURCE_DIR}/src/View/*.c"
+		"${PROJECT_SOURCE_DIR}/include/Facades/*.h"
+        "${PROJECT_SOURCE_DIR}/include/Facades/*.hpp"
+        "${PROJECT_SOURCE_DIR}/src/Facades/*.cpp"
+        "${PROJECT_SOURCE_DIR}/src/Facades/*.c"
+		"${PROJECT_SOURCE_DIR}/include/Controller/*.h"
+        "${PROJECT_SOURCE_DIR}/include/Controller/*.hpp"
+        "${PROJECT_SOURCE_DIR}/src/Controller/*.cpp"
+        "${PROJECT_SOURCE_DIR}/src/Controller/*.c"
 		"${PROJECT_SOURCE_DIR}/src/*.cpp"
         "${PROJECT_SOURCE_DIR}/src/*.c"
+		"${PROJECT_SOURCE_DIR}/include/*.h"
+        "${PROJECT_SOURCE_DIR}/include/*.hpp"
 )
-
+#
 file(GLOB tests						   
 		"${PROJECT_SOURCE_DIR}/tests/*.cpp"
 		"${PROJECT_SOURCE_DIR}/tests/*.c"
@@ -32,7 +46,7 @@ add_executable(
 	${PROJECT_NAME}
 	${sources}
 )
-
+##
 add_executable(
 	google_tests
 	${tests}

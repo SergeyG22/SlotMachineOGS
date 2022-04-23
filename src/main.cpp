@@ -1,7 +1,10 @@
 #include <SFML/Graphics.hpp>
+#include "../include/Facades/game.h"
 
-int main()
-{
+int main() {
+    std::unique_ptr<Game>game = std::make_unique<Game>();
+    game->gameLoop();
+    /*
     sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
@@ -19,6 +22,8 @@ int main()
         window.draw(shape);
         window.display();
     }
+    */
+
 
     return 0;
 }
