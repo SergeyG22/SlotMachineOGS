@@ -4,25 +4,25 @@ sf::RenderWindow* Window::getWindowPtr() {
 	return &m_window;
 }
 
-void Window::render(const std::shared_ptr<Model>& model) {
-    													
-	m_graphic_objects.roller_a->getSprite()->setTextureRect(sf::IntRect(0, (model->getModel()[ROW_NUMBER][0] * FRAME_HEIGHT), FRAME_WIDTH, FRAME_HEIGHT));
-	m_graphic_objects.roller_b->getSprite()->setTextureRect(sf::IntRect(0, (model->getModel()[ROW_NUMBER][1] * FRAME_HEIGHT), FRAME_WIDTH, FRAME_HEIGHT));
-	m_graphic_objects.roller_c->getSprite()->setTextureRect(sf::IntRect(0, (model->getModel()[ROW_NUMBER][2] * FRAME_HEIGHT), FRAME_WIDTH, FRAME_HEIGHT));
-	m_graphic_objects.roller_d->getSprite()->setTextureRect(sf::IntRect(0, (model->getModel()[ROW_NUMBER][3] * FRAME_HEIGHT), FRAME_WIDTH, FRAME_HEIGHT));
-	m_graphic_objects.roller_e->getSprite()->setTextureRect(sf::IntRect(0, (model->getModel()[ROW_NUMBER][4] * FRAME_HEIGHT), FRAME_WIDTH, FRAME_HEIGHT));
+Window::Window(std::vector<Spin>&rollers, GraphicObjects& graphic_objects) : m_rollers(rollers), m_graphic_objects(graphic_objects) {
+	
+}
+
+void Window::render(const std::shared_ptr<Model>& model) {  
 
 	m_window.clear();
-	m_window.draw(*(m_graphic_objects.roller_a->getSprite()));
-	m_window.draw(*(m_graphic_objects.roller_b->getSprite()));
-	m_window.draw(*(m_graphic_objects.roller_c->getSprite()));
-	m_window.draw(*(m_graphic_objects.roller_d->getSprite()));
-	m_window.draw(*(m_graphic_objects.roller_e->getSprite()));
-	m_window.display();
+	m_rollers[0].spinCylinder(m_graphic_objects.roller_a, m_window);
+	m_rollers[1].spinCylinder(m_graphic_objects.roller_b, m_window);
+	m_rollers[2].spinCylinder(m_graphic_objects.roller_c, m_window);
+	m_rollers[3].spinCylinder(m_graphic_objects.roller_d, m_window);
+	m_rollers[4].spinCylinder(m_graphic_objects.roller_e, m_window);
 
+	//пусть роллер изменяет модель
+	m_window.display();
 	Display::render(model);
 }
 
 bool Window::isOpen() const {
 	return m_window.isOpen();
 }
+
