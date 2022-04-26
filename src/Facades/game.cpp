@@ -18,11 +18,11 @@ Game::Game() {
 	m_graphic_objects.roller_d->getSprite()->setTextureRect(sf::IntRect(0, ROLLER_D_START_POSITION_Y, FRAME_WIDTH, FRAME_HEIGHT));
 	m_graphic_objects.roller_e->getSprite()->setTextureRect(sf::IntRect(0, ROLLER_E_START_POSITION_Y, FRAME_WIDTH, FRAME_HEIGHT));
 
-	m_rollers[0].setStartPosition(ROLLER_A_START_POSITION_Y);
-	m_rollers[1].setStartPosition(ROLLER_B_START_POSITION_Y);
-	m_rollers[2].setStartPosition(ROLLER_C_START_POSITION_Y);
-	m_rollers[3].setStartPosition(ROLLER_D_START_POSITION_Y);
-	m_rollers[4].setStartPosition(ROLLER_E_START_POSITION_Y);
+	m_rollers[0].setFrameStartPosition(ROLLER_A_START_POSITION_Y);
+	m_rollers[1].setFrameStartPosition(ROLLER_B_START_POSITION_Y);
+	m_rollers[2].setFrameStartPosition(ROLLER_C_START_POSITION_Y);
+	m_rollers[3].setFrameStartPosition(ROLLER_D_START_POSITION_Y);
+	m_rollers[4].setFrameStartPosition(ROLLER_E_START_POSITION_Y);
 }
 
 void Game::gameLoop() {

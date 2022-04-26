@@ -1,84 +1,112 @@
 #include "../../include/Backend/spin.h"
 
-Spin::Spin(double boostStep) :m_boostStep(boostStep) {
 
-};
+Spin::Spin(std::pair<double, double>speed_values) : m_speed_values(speed_values){
+	m_boost_step = getRandomSpeed();
+}
 
 void Spin::setSpinState(bool isSpinState) {
-	this->m_isSpin = isSpinState;
+	this->m_is_spin = isSpinState;
 }
 
-bool Spin::getSpintState() const {
-	return m_isSpin;
+void Spin::maxBoostReached() {
+	m_max_boost_reached = true;
+	setStopBoostValue();
 }
 
-void Spin::setStartPosition(int pos) {
+void Spin::setStopBoostValue() {
+	m_boost = STOP_BOOST_VALUE;
+}
+
+bool Spin::getSpinState() const {
+	return m_is_spin;
+}
+
+void Spin::setFrameStartPosition(int pos) {
 	m_offset = pos;
 }
 
-
-void Spin::resetValues() {
-	m_isSpin = false;
-	m_stable_speed_check = false;
-	m_boost = 0;
+bool Spin::speedUpMode() {
+	if (m_boost >= MAX_BOOST) {    
+		m_max_boost_reached = true;
+		return true;
+	}
+	return false;
 }
 
-void Spin::checkingInputFrame() {
+void Spin::speedDownMode() {   
+	m_boost_step = -m_boost_step;
+	m_speed_down_mode_is_enabled = true;
+}
 
-	if (((int)m_boost == m_stable_speed_value) && m_stable_speed_check) {
-		m_boost = m_stable_speed_value;
-		switch (m_offset) {
+bool Spin::getStateSpeedDownMode() const {
+	return m_speed_down_mode_is_enabled;
+}
 
-		case FRAME_HEIGHT * 0: {
-			resetValues();
-			m_offset = FRAME_HEIGHT * 0;
+void Spin::resetAllValues() {
+	m_boost = 0.0;
+	m_is_spin = false;
+	m_get_random_speed = true;
+	m_max_boost_reached = false;
+	m_speed_down_mode_is_enabled = false;
+}
+
+void Spin::checkInputFrame() {
+
+	if (((int)m_boost == STABLE_SPEED_VALUE) && m_max_boost_reached) {
+		m_boost = STABLE_SPEED_VALUE;
+	switch (m_offset) {
+
+		case FRAME_HEIGHT * 1: {   
+			resetAllValues();
 			break;
 		}
-		case FRAME_HEIGHT * 1: {
-			resetValues();
-			m_offset = FRAME_HEIGHT * 1;
+		case FRAME_HEIGHT * 2: {  
+			resetAllValues();
 			break;
 		}
-		case FRAME_HEIGHT * 2: {
-			resetValues();
-			m_offset = FRAME_HEIGHT * 2;
+		case FRAME_HEIGHT * 3: {   
+			resetAllValues();
 			break;
 		}
-		case FRAME_HEIGHT * 3: {
-			resetValues();
-			m_offset = FRAME_HEIGHT * 3;
+		case FRAME_HEIGHT * 4: {  
+			resetAllValues();
 			break;
 		}
-		case FRAME_HEIGHT * 4: {
-			resetValues();
-			m_offset = FRAME_HEIGHT * 4;
-			break;
-		}
-		}
+	   }	
 	}
 	else {
-		m_boost += m_boostStep;
+		m_boost += m_boost_step;         
 	}
 }
 
-void Spin::spinCylinder(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window) {
-	if (m_isSpin) {
+double Spin::getRandomSpeed() const {
+	std::random_device device;
+	std::mt19937 mt(device());
+	std::uniform_real_distribution<double>object(m_speed_values.first, m_speed_values.second);
+	return object(mt);
+}
+
+void Spin::spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window) {
+	if (m_is_spin) {
 		m_offset += m_boost;
-
-		checkingInputFrame();
-
-		if (m_boost >= MAX_BOOST) {
-			m_boostStep = -m_boostStep;
-			m_stable_speed_check = true;
+		
+		checkInputFrame();
+		if (speedUpMode()) { 
+		//	speedDownMode();
 		}
-		if (m_boost <= 0) {
-			m_boostStep = -m_boostStep;
-			m_isSpin = false;
-		}
+
 		if (m_offset > FRAME_HEIGHT * MODEL_HEIGHT) {
 			m_offset = 0;
 		}
+
+		if (m_get_random_speed) {
+			m_boost_step = getRandomSpeed();
+			m_get_random_speed = false;
+		}
+
 		roller->getSprite()->setTextureRect(sf::IntRect(0, (0) + m_offset, FRAME_WIDTH, FRAME_HEIGHT));
 	}
 	m_window.draw(*(roller->getSprite()));
 };
+

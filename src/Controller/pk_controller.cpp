@@ -34,16 +34,27 @@ bool PkController::keyboardEvent(const sf::Event& event) {
 	if (event.type == sf::Event::KeyPressed) {
 		switch (event.key.code) {
 
-		case sf::Keyboard::Key::Space:{
+		case sf::Keyboard::Key::P:{
 
-			if (std::all_of(m_rollers.begin(), m_rollers.end(), [](Spin value) {  return value.getSpintState() == false; })) {
-				for (int i = 0; i < m_rollers.size(); ++i) {
-					m_rollers[i].setSpinState(true);
-				}
+			if (std::all_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getSpinState() == false; })) {
+				std::for_each(m_rollers.begin(), m_rollers.end(), [](Spin& spin) { spin.setSpinState(true); });
 			}
 
 			break;
 			}
+
+		case sf::Keyboard::Key::Space: { 
+
+			if (std::all_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getStateSpeedDownMode() == false; })) {
+				if (std::any_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getSpinState() == true; })) {
+					std::for_each(m_rollers.begin(), m_rollers.end(), [](Spin& spin) { spin.maxBoostReached();
+																					   spin.speedDownMode();
+						});
+				}
+			}
+
+			break;
+		}
 
 		}
 	}

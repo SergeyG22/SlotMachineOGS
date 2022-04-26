@@ -44,13 +44,12 @@ file(GLOB sources
         "${PROJECT_SOURCE_DIR}/src/*.c"
 		"${PROJECT_SOURCE_DIR}/include/*.h"
         "${PROJECT_SOURCE_DIR}/include/*.hpp"
-
 )
-#
+
 file(GLOB tests						   
 		"${PROJECT_SOURCE_DIR}/tests/*.cpp"
 		"${PROJECT_SOURCE_DIR}/tests/*.c"
-		"${PROJECT_SOURCE_DIR}/tests/*.cc"		   
+		"${PROJECT_SOURCE_DIR}/tests/*.cc"
 )
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
@@ -59,7 +58,7 @@ add_executable(
 	${PROJECT_NAME}
 	${sources}
 )
-##
+
 add_executable(
 	google_tests
 	${tests}
@@ -74,10 +73,8 @@ if(SFML_FOUND)
 		target_link_libraries(${PROJECT_NAME} PRIVATE sfml-audio sfml-graphics sfml-system sfml-window sfml-network)
 endif()
 
-target_link_libraries(
-  google_tests
-  gtest_main
-)
+
+target_link_libraries(google_tests PRIVATE gtest_main)
 
 include(GoogleTest)
 gtest_discover_tests(google_tests)
