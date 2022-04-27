@@ -51,7 +51,7 @@ file(GLOB tests
 		"${PROJECT_SOURCE_DIR}/tests/*.c"
 		"${PROJECT_SOURCE_DIR}/tests/*.cc"
 )
-
+#
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
 add_executable(

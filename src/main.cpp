@@ -1,5 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "../include/Facades/game.h"
+#include "../include/Backend/timer.h"
+
 
 int main() {
     setlocale(LC_ALL, "russian");

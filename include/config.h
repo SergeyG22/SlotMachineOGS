@@ -37,3 +37,9 @@ const int ROW_NUMBER = 1;
 const int MAX_BOOST = 50;
 const int STOP_BOOST_VALUE = 20;
 
+const int TIME_TO_STOP = 5;
+
+const int FPS = 60.0;
+const float VALUE_OF_SCREEN_RATE = 520.f;
+
+

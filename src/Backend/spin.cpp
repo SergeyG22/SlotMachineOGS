@@ -76,7 +76,7 @@ void Spin::checkInputFrame() {
 	   }	
 	}
 	else {
-		m_boost += m_boost_step;         
+		m_boost += m_boost_step;
 	}
 }
 
@@ -87,13 +87,19 @@ double Spin::getRandomSpeed() const {
 	return object(mt);
 }
 
-void Spin::spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window) {
+void Spin::spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window, std::shared_ptr<Timer>& timer) {
 	if (m_is_spin) {
+
 		m_offset += m_boost;
-		
+
 		checkInputFrame();
+
 		if (speedUpMode()) { 
-		//	speedDownMode();
+			if (timer->elapsedSeconds() > TIME_TO_STOP) {
+				maxBoostReached();
+				speedDownMode();
+				timer->stop();
+			}
 		}
 
 		if (m_offset > FRAME_HEIGHT * MODEL_HEIGHT) {
