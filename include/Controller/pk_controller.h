@@ -6,11 +6,12 @@
 
 class PkController: public Controller {
 	std::shared_ptr<Display>m_window_ptr;
-	std::shared_ptr<Timer>m_timer_ptr;
+	std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>m_timer_ptr;
 	std::vector<Spin>& m_rollers;
-	bool mouseEvent(const sf::Event&);
+	const GraphicObjects& m_graphic_objects_ptr;
+	bool mouseEvent(const sf::Event&, const sf::Vector2f&);
 	bool keyboardEvent(const sf::Event&);
 public:
-	PkController(std::shared_ptr<Display>, std::vector<Spin>&, std::shared_ptr<Timer>&);
+	PkController(std::shared_ptr<Display>, std::vector<Spin>&, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>&m_timer_ptr, const GraphicObjects&);
 	void eventLoop() override;
 };

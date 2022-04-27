@@ -1,6 +1,6 @@
 #include "../../include/View/display.h"
 
-void Display::render(const std::shared_ptr<Model>& model, std::shared_ptr<Timer>&) {
+void Display::render(const std::shared_ptr<Model>& model,std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>&m_timer_ptr) {
 	for (int i = 0; i < model->getModel().size(); ++i) {
 		for (int j = 0; j < model->getModel()[i].size(); ++j) {
 //			std::cout << model->getModel()[i][j] << ' ';

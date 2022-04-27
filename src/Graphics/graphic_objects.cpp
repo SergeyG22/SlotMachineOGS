@@ -11,4 +11,9 @@ GraphicObjects::GraphicObjects() {
 	roller_d->getSprite()->setPosition(ROLLER_D_POS_X, ROLLER_D_POS_Y);
 	roller_e = std::make_unique<RenderingElement>("rollers/roller.jpg");
 	roller_e->getSprite()->setPosition(ROLLER_E_POS_X, ROLLER_E_POS_Y);
+
+	button_start = std::make_unique<RenderingElement>("buttons/start_button.png");
+	button_start->getSprite()->setPosition(START_BUTTON_POS_X, START_BUTTON_POS_Y);
+	button_stop = std::make_unique<RenderingElement>("buttons/stop_button.png");
+	button_stop->getSprite()->setPosition(STOP_BUTTON_POS_X, STOP_BUTTON_POS_Y);
 }

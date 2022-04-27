@@ -21,7 +21,7 @@ class Spin {
 	void checkInputFrame();
 	double getRandomSpeed() const;
 public:
-	void spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window, std::shared_ptr<Timer>&);	
+	void spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>&m_timer_ptr);
 	bool speedUpMode();
 	void speedDownMode();
 	void maxBoostReached();

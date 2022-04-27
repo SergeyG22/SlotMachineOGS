@@ -87,7 +87,7 @@ double Spin::getRandomSpeed() const {
 	return object(mt);
 }
 
-void Spin::spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window, std::shared_ptr<Timer>& timer) {
+void Spin::spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& timer) {
 	if (m_is_spin) {
 
 		m_offset += m_boost;
@@ -95,10 +95,11 @@ void Spin::spinObject(const std::unique_ptr<RenderingElement>& roller, sf::Rende
 		checkInputFrame();
 
 		if (speedUpMode()) { 
-			if (timer->elapsedSeconds() > TIME_TO_STOP) {
+			if (/*timer->elapsedSeconds()*/ timer.first->elapsedSeconds() > TIME_TO_STOP) {
 				maxBoostReached();
 				speedDownMode();
-				timer->stop();
+			//	timer->stop();
+				timer.first->stop();
 			}
 		}
 

@@ -8,7 +8,7 @@ Window::Window(std::vector<Spin>&rollers, GraphicObjects& graphic_objects) : m_r
 	
 }
 
-void Window::render(const std::shared_ptr<Model>& model, std::shared_ptr<Timer>& timer) {  
+void Window::render(const std::shared_ptr<Model>& model, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& timer) {
 	
 	m_window.clear();                                  
 	m_rollers[0].spinObject(m_graphic_objects.roller_a, m_window, timer);
@@ -16,6 +16,8 @@ void Window::render(const std::shared_ptr<Model>& model, std::shared_ptr<Timer>&
 	m_rollers[2].spinObject(m_graphic_objects.roller_c, m_window, timer);
 	m_rollers[3].spinObject(m_graphic_objects.roller_d, m_window, timer);
 	m_rollers[4].spinObject(m_graphic_objects.roller_e, m_window, timer);
+	m_window.draw(*(m_graphic_objects.button_start->getSprite()));
+	m_window.draw(*(m_graphic_objects.button_stop->getSprite()));
 	m_window.display();
 
 	Display::render(model, timer);

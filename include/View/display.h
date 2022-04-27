@@ -9,6 +9,6 @@ class Display {
 public:
 	virtual ~Display() = default;
 	virtual sf::RenderWindow* getWindowPtr() = 0;
-	virtual void render(const std::shared_ptr<Model>&, std::shared_ptr<Timer>&);
+	virtual void render(const std::shared_ptr<Model>&, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& m_timer_ptr);
 	virtual bool isOpen() const = 0;
 };

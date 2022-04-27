@@ -12,7 +12,7 @@ class Window: public Display {
 	sf::Clock clock;
 public:
 	sf::RenderWindow* getWindowPtr();
-	void render(const std::shared_ptr<Model>&, std::shared_ptr<Timer>&) override;
+	void render(const std::shared_ptr<Model>&, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& m_timer_ptr) override;
 	bool isOpen() const override;
 	Window(std::vector<Spin>&, GraphicObjects&);
 };
