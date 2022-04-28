@@ -6,7 +6,6 @@
 #include <chrono>
 #include "../Backend/timer.h"
 
-
 class Spin {
 	int m_offset = 0;
 	double m_boost = 0.0;
@@ -21,7 +20,7 @@ class Spin {
 	void checkInputFrame();
 	double getRandomSpeed() const;
 public:
-	void spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>&m_timer_ptr);
+	int spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>&m_timer_ptr);
 	bool speedUpMode();
 	void speedDownMode();
 	void maxBoostReached();

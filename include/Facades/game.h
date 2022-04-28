@@ -4,6 +4,9 @@
 #include "../Model/model.h"
 #include "../Backend/spin.h"
 #include "../Backend/timer.h"
+#include "../Backend/state_machine.h"
+#include "../Backend/state_context.h"
+
 
 class Game {
 	std::shared_ptr<Display> m_display_ptr;
@@ -17,6 +20,7 @@ class Game {
 							   };
 	std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>m_timer_ptr;
 	GraphicObjects m_graphic_objects;
+	std::vector<std::shared_ptr<StateMachine>>m_context;
 public:
 	Game();
 	void gameLoop();

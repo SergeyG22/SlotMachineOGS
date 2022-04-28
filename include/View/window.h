@@ -5,6 +5,7 @@
 #include "../Backend/spin.h"
 #include "../Backend/timer.h"
 
+
 class Window: public Display {
 	sf::RenderWindow m_window { sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "SlotMachineOGS", sf::Style::Close | sf::Style::Titlebar };
 	GraphicObjects& m_graphic_objects;
@@ -12,7 +13,7 @@ class Window: public Display {
 	sf::Clock clock;
 public:
 	sf::RenderWindow* getWindowPtr();
-	void render(const std::shared_ptr<Model>&, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& m_timer_ptr) override;
+	void render(const std::shared_ptr<Model>&, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>&, std::vector<std::shared_ptr<StateMachine>>&) override;
 	bool isOpen() const override;
 	Window(std::vector<Spin>&, GraphicObjects&);
 };

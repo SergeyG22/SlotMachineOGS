@@ -13,4 +13,5 @@ public:
 	std::unique_ptr<RenderingElement>roller_e;
 	std::unique_ptr<RenderingElement>button_start;
 	std::unique_ptr<RenderingElement>button_stop;
+	std::unique_ptr<RenderingElement>winner_logo;
 };

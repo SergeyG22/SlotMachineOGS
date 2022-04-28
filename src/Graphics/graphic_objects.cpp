@@ -16,4 +16,7 @@ GraphicObjects::GraphicObjects() {
 	button_start->getSprite()->setPosition(START_BUTTON_POS_X, START_BUTTON_POS_Y);
 	button_stop = std::make_unique<RenderingElement>("buttons/stop_button.png");
 	button_stop->getSprite()->setPosition(STOP_BUTTON_POS_X, STOP_BUTTON_POS_Y);
+
+	winner_logo = std::make_unique<RenderingElement>("logo/winner_logo.png");
+	winner_logo->getSprite()->setPosition(WINNER_LOGO_POS_X, WINNER_LOGO_POS_Y);
 }

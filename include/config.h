@@ -38,6 +38,9 @@ const int START_BUTTON_POS_Y = 575;
 const int STOP_BUTTON_POS_X = 655;
 const int STOP_BUTTON_POS_Y = 575;
 
+const int WINNER_LOGO_POS_X = 335;
+const int WINNER_LOGO_POS_Y = 50;
+
 const int ROW_NUMBER = 1;
 const int MAX_BOOST = 50;
 const int STOP_BOOST_VALUE = 20;
@@ -47,5 +50,6 @@ const int TIME_FROM_START_ALLOWS_PLAYER_TO_PRESS_STOP_BUTTON = 4;
 
 const int FPS = 60.0;
 const float VALUE_OF_SCREEN_RATE = 520.f;
+
 
 

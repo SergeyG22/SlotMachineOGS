@@ -87,18 +87,16 @@ double Spin::getRandomSpeed() const {
 	return object(mt);
 }
 
-void Spin::spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& timer) {
+int Spin::spinObject(const std::unique_ptr<RenderingElement>& roller, sf::RenderWindow& m_window, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& timer) {
 	if (m_is_spin) {
-
 		m_offset += m_boost;
-
+	    
 		checkInputFrame();
 
 		if (speedUpMode()) { 
-			if (/*timer->elapsedSeconds()*/ timer.first->elapsedSeconds() > TIME_TO_STOP) {
+			if (timer.first->elapsedSeconds() > TIME_TO_STOP) {
 				maxBoostReached();
 				speedDownMode();
-			//	timer->stop();
 				timer.first->stop();
 			}
 		}
@@ -112,8 +110,8 @@ void Spin::spinObject(const std::unique_ptr<RenderingElement>& roller, sf::Rende
 			m_get_random_speed = false;
 		}
 
-		roller->getSprite()->setTextureRect(sf::IntRect(0, (0) + m_offset, FRAME_WIDTH, FRAME_HEIGHT));
+		return m_offset;
 	}
-	m_window.draw(*(roller->getSprite()));
+	return m_offset;
 };
 
