@@ -12,8 +12,10 @@ Window::Window(std::vector<Spin>&rollers, GraphicObjects& graphic_objects) : m_r
 
 void Window::render(const std::shared_ptr<Model>& model, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& timer, std::vector<std::shared_ptr<StateMachine>>& context) {
 	
-
+	
 	m_window.clear();
+
+	m_window.draw(*(m_graphic_objects.main_screen->getSprite()));
 	context[CURRENT_STATE]->makeAction();
 
     m_window.draw(*(m_graphic_objects).roller_a->getSprite());

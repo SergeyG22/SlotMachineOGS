@@ -1,6 +1,7 @@
 #include "../../include/Controller/pk_controller.h"
 
 extern int CURRENT_STATE;
+extern int PREVIOUS_STATE;
 
 PkController::PkController(std::shared_ptr<Display>window_ptr, std::vector<Spin>& rollers, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& timer, const GraphicObjects& graphic_objects) :m_window_ptr(window_ptr), m_rollers(rollers),
 																																																	 m_timer_ptr(timer), m_graphic_objects_ptr(graphic_objects) {
@@ -29,6 +30,7 @@ bool PkController::mouseEvent(const sf::Event& event, const sf::Vector2f& view_m
 		if (event.key.code == sf::Mouse::Left) {		
 			if (m_graphic_objects_ptr.button_start->getSprite()->getGlobalBounds().contains(view_mouse_position.x, view_mouse_position.y)) {
 				CURRENT_STATE = 1;
+				PREVIOUS_STATE = 1;
 				return true;
 			}
 
@@ -54,14 +56,14 @@ bool PkController::mouseEvent(const sf::Event& event, const sf::Vector2f& view_m
 	}
 
 	if (m_graphic_objects_ptr.button_start->getSprite()->getGlobalBounds().contains(view_mouse_position.x, view_mouse_position.y)) {
-		m_graphic_objects_ptr.button_start->getSprite()->setColor(sf::Color::Yellow);
+		m_graphic_objects_ptr.button_start->getSprite()->setColor(sf::Color(246, 246, 229, 200.0));
 	}
 	else {
 		m_graphic_objects_ptr.button_start->getSprite()->setColor(sf::Color::White);
 	}
 
 	if (m_graphic_objects_ptr.button_stop->getSprite()->getGlobalBounds().contains(view_mouse_position.x, view_mouse_position.y)) {
-		m_graphic_objects_ptr.button_stop->getSprite()->setColor(sf::Color::Yellow);
+		m_graphic_objects_ptr.button_stop->getSprite()->setColor(sf::Color(246, 246, 229, 200.0));
 	}
 	else {
 		m_graphic_objects_ptr.button_stop->getSprite()->setColor(sf::Color::White);
@@ -78,6 +80,7 @@ bool PkController::keyboardEvent(const sf::Event& event) {
 
 		case sf::Keyboard::Key::R:{
 			CURRENT_STATE = 1;
+			PREVIOUS_STATE = 1;
 			break;
 			}
 

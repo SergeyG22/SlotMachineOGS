@@ -15,4 +15,5 @@ public:
 	std::unique_ptr<RenderingElement>button_stop;
 	std::unique_ptr<RenderingElement>winner_logo;
 	std::unique_ptr<RenderingElement>scoreboard;
+	std::unique_ptr<RenderingElement>main_screen;
 };

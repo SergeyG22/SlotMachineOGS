@@ -13,6 +13,7 @@ class ShowResult: public StateMachine {
 	double m_boost_step = 2.5;
 	int m_booster = 0;
 	int m_flickers_counter = 0;
+	void resetSettings();
 public:
 	ShowResult(GraphicObjects&, std::shared_ptr<Display>&, std::shared_ptr<Controller>& );
 	void makeAction() override;
