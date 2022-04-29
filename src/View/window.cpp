@@ -12,11 +12,10 @@ Window::Window(std::vector<Spin>&rollers, GraphicObjects& graphic_objects) : m_r
 
 void Window::render(const std::shared_ptr<Model>& model, std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& timer, std::vector<std::shared_ptr<StateMachine>>& context) {
 	
-	
-	//ÐÅÀËÈÇÈÂÀÒÜ ËÎÃÎÒÈÏ ÏÎÁÅÄÀ Â ÒÐÅÒÜÅÌ ÑÎÑÒÎßÍÈÈ
 
-	m_window.clear();  
+	m_window.clear();
 	context[CURRENT_STATE]->makeAction();
+
     m_window.draw(*(m_graphic_objects).roller_a->getSprite());
 	m_window.draw(*(m_graphic_objects).roller_b->getSprite());
 	m_window.draw(*(m_graphic_objects).roller_c->getSprite());
@@ -25,6 +24,7 @@ void Window::render(const std::shared_ptr<Model>& model, std::pair<std::shared_p
 
 	m_window.draw(*(m_graphic_objects.button_start->getSprite()));
 	m_window.draw(*(m_graphic_objects.button_stop->getSprite()));
+	m_window.draw(*(m_graphic_objects.scoreboard->getSprite()));
 
 	m_window.display();
 

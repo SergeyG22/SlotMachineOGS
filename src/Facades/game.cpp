@@ -28,11 +28,8 @@ Game::Game() {
 	m_rollers[4].setFrameStartPosition(ROLLER_E_START_POSITION_Y);
 
 	m_context.emplace_back(std::make_unique<WaitingForPlayer>(m_controller_ptr));
-	m_context.emplace_back(std::make_unique<SpiningSlots>(m_rollers, m_timer_ptr, m_graphic_objects, m_display_ptr, m_controller_ptr)); // сюда дисплей и график обжекст
+	m_context.emplace_back(std::make_unique<SpiningSlots>(m_rollers, m_timer_ptr, m_graphic_objects, m_display_ptr, m_controller_ptr)); 
 	m_context.emplace_back(std::make_unique<ShowResult>(m_graphic_objects, m_display_ptr, m_controller_ptr)); 
-
-	//запустить таймер плавного появления и затухания
-	//после истечения таймера перейти в состояние 0
 }
 
 void Game::gameLoop() {

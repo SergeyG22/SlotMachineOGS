@@ -49,8 +49,6 @@ void SpiningSlots::makeAction() {
 			
 	}
 	if (std::all_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getSpinState() == false; })) {
-		std::cout << "Барабаны не вращаются!\n";
-	//	CURRENT_STATE = 0;
 		CURRENT_STATE = 2;
 		m_spin_rollers = true;
 	} 

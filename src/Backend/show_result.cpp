@@ -1,25 +1,33 @@
 #include "../../include/Backend/show_result.h"
 
-ShowResult::ShowResult(GraphicObjects& graphic_objects, std::shared_ptr<Display>& display_ptr, std::shared_ptr<Controller>& controller):m_graphic_objects(graphic_objects), m_display_ptr(display_ptr), m_controller_ptr(controller) {
+extern int CURRENT_STATE;
 
+ShowResult::ShowResult(GraphicObjects& graphic_objects, std::shared_ptr<Display>& display_ptr, std::shared_ptr<Controller>& controller):m_graphic_objects(graphic_objects), m_display_ptr(display_ptr), m_controller_ptr(controller) {
+	graphic_objects.winner_logo->getSprite()->setColor(sf::Color(255, 255, 255, 0.0));
 }
 
 void ShowResult::makeAction() {
-	m_display_ptr->getWindowPtr()->draw(*(m_graphic_objects.winner_logo->getSprite()));
-	m_value += m_boost_step;
 
-	if (m_value >= 400) {
+	m_display_ptr->getWindowPtr()->draw(*(m_graphic_objects.winner_logo->getSprite()));
+	m_booster += m_boost_step;
+
+	if (m_booster >= TOTAL_FLICKER_TIME) {
 		m_boost_step = -m_boost_step;
 	}
-	if (m_value < 0) {
-	   // m_boost = 0;
-		std::cout << "GAME OVER!\n";
+	if ((m_booster < 0)  && (m_flickers_counter < (NUMBER_OF_FLICKERS))) {
+		m_flickers_counter++;
+		m_alpha = 0.0;
+		m_booster = 0;
+		m_boost_step = 2.5;
+		if (m_flickers_counter == NUMBER_OF_FLICKERS) {
+			m_flickers_counter = 0;
+			CURRENT_STATE = 0;
+		}
 	}
-	if (m_value > 0 && m_value <= 255) {
-		m_boost = m_value;
+	if ((m_booster >= 0) && (m_booster <= 255)) {
+		m_alpha = m_booster;
 	}
 
-
-	m_graphic_objects.winner_logo->getSprite()->setColor(sf::Color(255, 255, 255, m_boost));
+	m_graphic_objects.winner_logo->getSprite()->setColor(sf::Color(255, 255, 255, m_alpha));
 	m_controller_ptr->eventLoop();
 }
