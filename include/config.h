@@ -48,7 +48,7 @@ const int ROW_NUMBER = 1;
 const int MAX_BOOST = 50;
 const int STOP_BOOST_VALUE = 20;
 
-const int TIME_TO_STOP = 8;
+const int TIME_TO_STOP = 15;
 const int TIME_FROM_START_ALLOWS_PLAYER_TO_PRESS_STOP_BUTTON = 4;
 
 const int FPS = 60.0;

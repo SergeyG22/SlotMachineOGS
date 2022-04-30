@@ -26,25 +26,30 @@ void PkController::eventLoop() {
 
 bool PkController::mouseEvent(const sf::Event& event, const sf::Vector2f& view_mouse_position) {
 
+
 	if (event.type == sf::Event::MouseButtonPressed) {
 		if (event.key.code == sf::Mouse::Left) {		
+
 			if (m_graphic_objects_ptr.button_start->getSprite()->getGlobalBounds().contains(view_mouse_position.x, view_mouse_position.y)) {
-				CURRENT_STATE = 1;
-				PREVIOUS_STATE = 1;
-				return true;
+
+				if (std::all_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getSpinState() == false; })) {
+					CURRENT_STATE = 1;
+			    	PREVIOUS_STATE = 1;	
+					m_timer_ptr.first->stop(); 
+					m_timer_ptr.second->stop();
+			    	return true;
+				}			
 			}
-
+	
 			if (m_timer_ptr.second->elapsedSeconds() > TIME_FROM_START_ALLOWS_PLAYER_TO_PRESS_STOP_BUTTON) {
-
 				if (m_graphic_objects_ptr.button_stop->getSprite()->getGlobalBounds().contains(view_mouse_position.x, view_mouse_position.y)) {
 					
 					if (std::all_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getStateSpeedDownMode() == false; })) {
-						
 						if (std::any_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getSpinState() == true; })) {
 							std::for_each(m_rollers.begin(), m_rollers.end(), [](Spin& spin) { spin.maxBoostReached();
 																							   spin.speedDownMode();
 								});
-							m_timer_ptr.first->stop();
+							m_timer_ptr.first->stop(); 
 							m_timer_ptr.second->stop();
 							return true;
 						}
@@ -79,8 +84,13 @@ bool PkController::keyboardEvent(const sf::Event& event) {
 		switch (event.key.code) {
 
 		case sf::Keyboard::Key::R:{
-			CURRENT_STATE = 1;
-			PREVIOUS_STATE = 1;
+				if (std::all_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getSpinState() == false; })) {
+					CURRENT_STATE = 1;
+					PREVIOUS_STATE = 1;
+					m_timer_ptr.first->stop();
+					m_timer_ptr.second->stop();
+					return true;
+				}
 			break;
 			}
 

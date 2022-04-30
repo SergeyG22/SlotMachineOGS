@@ -8,7 +8,7 @@
 #include "../../include/Controller/controller.h"
 
 class SpiningSlots: public StateMachine {
-	std::vector<Spin>m_rollers;
+	std::vector<Spin>& m_rollers; 
 	std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>m_timer_ptr;
 	std::shared_ptr<Display> m_display_ptr;
 	std::shared_ptr<Controller>m_controller_ptr;

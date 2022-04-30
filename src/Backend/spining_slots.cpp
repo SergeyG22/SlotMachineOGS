@@ -25,23 +25,23 @@ void SpiningSlots::makeAction() {
 
 	int offset_e = m_rollers[4].spinObject(m_graphic_objects.roller_e, *(m_display_ptr->getWindowPtr()), m_timer_ptr);
 	(m_graphic_objects).roller_e->getSprite()->setTextureRect(sf::IntRect(0, (0) + offset_e, FRAME_WIDTH, FRAME_HEIGHT));
+	
 
-	if (m_spin_rollers) {
+	if (m_spin_rollers) { 
 		std::for_each(m_rollers.begin(), m_rollers.end(), [](Spin& spin) { spin.setSpinState(true); });
-		m_timer_ptr.first->start();
-		m_timer_ptr.second->start();
+		m_timer_ptr.first->start();  
+		m_timer_ptr.second->start(); 
 		m_spin_rollers = false;
 	}
 
-	if (m_timer_ptr.second->elapsedSeconds() > TIME_FROM_START_ALLOWS_PLAYER_TO_PRESS_STOP_BUTTON) { 
-			
+	if ( m_timer_ptr.first->elapsedSeconds() > TIME_TO_STOP) {
 			if (std::all_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getStateSpeedDownMode() == false; })) {
 
 				if (std::any_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getSpinState() == true; })) {
 					std::for_each(m_rollers.begin(), m_rollers.end(), [](Spin& spin) { spin.maxBoostReached();
 																					   spin.speedDownMode();
 						});
-					m_timer_ptr.first->stop();
+					m_timer_ptr.first->stop();    
 					m_timer_ptr.second->stop();
 				}
 
@@ -51,6 +51,5 @@ void SpiningSlots::makeAction() {
 	if (std::all_of(m_rollers.begin(), m_rollers.end(), [](Spin& value) {  return value.getSpinState() == false; })) {
 		CURRENT_STATE = 2;
 		m_spin_rollers = true;
-	} 
-	
+	}
 }
