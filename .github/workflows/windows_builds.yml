@@ -32,8 +32,6 @@ jobs:
            mkdir build
            cd build
            cmake ..          
-    - name: Test
-      working-directory: ${{github.workspace}}/build
-      run: ctest
+
     
       
