@@ -1,5 +1,4 @@
-
-    name: CI - linux
+name: CI - linux
 
 on: [push, pull_request]
 
