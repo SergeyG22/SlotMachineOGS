@@ -99,9 +99,9 @@ endif()
 #############################################################################################
 
 
-set(Vorbis_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
+set(Vorbis_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
 set(Vorbis_RES_DIRS )
 set(Vorbis_DEFINITIONS )
 set(Vorbis_LINKER_FLAGS_LIST
@@ -137,7 +137,7 @@ mark_as_advanced(Vorbis_INCLUDE_DIRS
 
 # Find the real .lib/.a and add them to Vorbis_LIBS and Vorbis_LIBRARY_LIST
 set(Vorbis_LIBRARY_LIST vorbisenc vorbisfile vorbis)
-set(Vorbis_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(Vorbis_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 
 # Gather all the libraries that should be linked to the targets (do not touch existing variables):
 set(_Vorbis_DEPENDENCIES "${Vorbis_FRAMEWORKS_FOUND} ${Vorbis_SYSTEM_LIBS} Ogg::Ogg")
@@ -166,16 +166,16 @@ endforeach()
 set(Vorbis_LIBRARIES_TARGETS "${Vorbis_LIBRARIES_TARGETS};Ogg::Ogg")
 set(Vorbis_LIBRARIES "${Vorbis_LIBRARIES};Ogg::Ogg")
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_PREFIX_PATH})
 
 
 ########### COMPONENT vorbis VARIABLES #############################################
 
-set(Vorbis_vorbis_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_vorbis_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_vorbis_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_vorbis_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(Vorbis_vorbis_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_vorbis_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_vorbis_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_vorbis_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 set(Vorbis_vorbis_RES_DIRS )
 set(Vorbis_vorbis_DEFINITIONS )
 set(Vorbis_vorbis_COMPILE_DEFINITIONS )
@@ -195,10 +195,10 @@ set(Vorbis_vorbis_LINKER_FLAGS_LIST
 
 ########### COMPONENT vorbisfile VARIABLES #############################################
 
-set(Vorbis_vorbisfile_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_vorbisfile_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_vorbisfile_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_vorbisfile_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(Vorbis_vorbisfile_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_vorbisfile_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_vorbisfile_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_vorbisfile_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 set(Vorbis_vorbisfile_RES_DIRS )
 set(Vorbis_vorbisfile_DEFINITIONS )
 set(Vorbis_vorbisfile_COMPILE_DEFINITIONS )
@@ -218,10 +218,10 @@ set(Vorbis_vorbisfile_LINKER_FLAGS_LIST
 
 ########### COMPONENT File VARIABLES #############################################
 
-set(Vorbis_File_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_File_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_File_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_File_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(Vorbis_File_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_File_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_File_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_File_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 set(Vorbis_File_RES_DIRS )
 set(Vorbis_File_DEFINITIONS )
 set(Vorbis_File_COMPILE_DEFINITIONS )
@@ -241,10 +241,10 @@ set(Vorbis_File_LINKER_FLAGS_LIST
 
 ########### COMPONENT vorbisenc VARIABLES #############################################
 
-set(Vorbis_vorbisenc_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_vorbisenc_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_vorbisenc_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_vorbisenc_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(Vorbis_vorbisenc_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_vorbisenc_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_vorbisenc_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_vorbisenc_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 set(Vorbis_vorbisenc_RES_DIRS )
 set(Vorbis_vorbisenc_DEFINITIONS )
 set(Vorbis_vorbisenc_COMPILE_DEFINITIONS )
@@ -264,10 +264,10 @@ set(Vorbis_vorbisenc_LINKER_FLAGS_LIST
 
 ########### COMPONENT Enc VARIABLES #############################################
 
-set(Vorbis_Enc_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_Enc_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_Enc_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(Vorbis_Enc_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(Vorbis_Enc_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_Enc_INCLUDE_DIR "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_Enc_INCLUDES "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(Vorbis_Enc_LIB_DIRS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 set(Vorbis_Enc_RES_DIRS )
 set(Vorbis_Enc_DEFINITIONS )
 set(Vorbis_Enc_COMPILE_DEFINITIONS )
@@ -319,8 +319,8 @@ conan_package_library_targets("${Vorbis_vorbis_LIBS}"
 
 set(Vorbis_vorbis_LINK_LIBS ${Vorbis_vorbis_LIB_TARGETS} ${Vorbis_vorbis_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT vorbisfile FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -340,8 +340,8 @@ conan_package_library_targets("${Vorbis_vorbisfile_LIBS}"
 
 set(Vorbis_vorbisfile_LINK_LIBS ${Vorbis_vorbisfile_LIB_TARGETS} ${Vorbis_vorbisfile_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT File FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -361,8 +361,8 @@ conan_package_library_targets("${Vorbis_File_LIBS}"
 
 set(Vorbis_File_LINK_LIBS ${Vorbis_File_LIB_TARGETS} ${Vorbis_File_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT vorbisenc FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -382,8 +382,8 @@ conan_package_library_targets("${Vorbis_vorbisenc_LIBS}"
 
 set(Vorbis_vorbisenc_LINK_LIBS ${Vorbis_vorbisenc_LIB_TARGETS} ${Vorbis_vorbisenc_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT Enc FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -403,8 +403,8 @@ conan_package_library_targets("${Vorbis_Enc_LIBS}"
 
 set(Vorbis_Enc_LINK_LIBS ${Vorbis_Enc_LIB_TARGETS} ${Vorbis_Enc_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_PREFIX_PATH})
 
 
 ########## TARGETS ##########################################################################

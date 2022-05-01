@@ -99,9 +99,9 @@ endif()
 #############################################################################################
 
 
-set(SFML_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
+set(SFML_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
 set(SFML_RES_DIRS )
 set(SFML_DEFINITIONS "-DSFML_STATIC")
 set(SFML_LINKER_FLAGS_LIST
@@ -120,7 +120,7 @@ set(SFML_SYSTEM_LIBS gdi32 winmm ws2_32)
 set(SFML_FRAMEWORK_DIRS )
 set(SFML_FRAMEWORKS )
 set(SFML_FRAMEWORKS_FOUND "") # Will be filled later
-set(SFML_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib/cmake/conan-official-sfml-targets.cmake")
+set(SFML_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib/cmake/conan-official-sfml-targets.cmake")
 
 conan_find_apple_frameworks(SFML_FRAMEWORKS_FOUND "${SFML_FRAMEWORKS}" "${SFML_FRAMEWORK_DIRS}")
 
@@ -136,8 +136,8 @@ mark_as_advanced(SFML_INCLUDE_DIRS
                  SFML_LIBRARIES_TARGETS)
 
 # Find the real .lib/.a and add them to SFML_LIBS and SFML_LIBRARY_LIST
-set(SFML_LIBRARY_LIST sfml-main-d sfml-graphics-s-d sfml-window-s-d sfml-network-s-d sfml-audio-s-d sfml-system-s-d)
-set(SFML_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib")
+set(SFML_LIBRARY_LIST sfml-main sfml-graphics-s sfml-window-s sfml-network-s sfml-audio-s sfml-system-s)
+set(SFML_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib")
 
 # Gather all the libraries that should be linked to the targets (do not touch existing variables):
 set(_SFML_DEPENDENCIES "${SFML_FRAMEWORKS_FOUND} ${SFML_SYSTEM_LIBS} Freetype::Freetype;stb::stb;opengl::opengl;FLAC::FLAC;OpenAL::OpenAL;Vorbis::Vorbis")
@@ -166,26 +166,26 @@ endforeach()
 set(SFML_LIBRARIES_TARGETS "${SFML_LIBRARIES_TARGETS};Freetype::Freetype;stb::stb;opengl::opengl;FLAC::FLAC;OpenAL::OpenAL;Vorbis::Vorbis")
 set(SFML_LIBRARIES "${SFML_LIBRARIES};Freetype::Freetype;stb::stb;opengl::opengl;FLAC::FLAC;OpenAL::OpenAL;Vorbis::Vorbis")
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_PREFIX_PATH})
 
 
 ########### COMPONENT system VARIABLES #############################################
 
-set(SFML_system_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_system_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_system_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_system_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib")
+set(SFML_system_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_system_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_system_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_system_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib")
 set(SFML_system_RES_DIRS )
 set(SFML_system_DEFINITIONS "-DSFML_STATIC")
 set(SFML_system_COMPILE_DEFINITIONS "SFML_STATIC")
 set(SFML_system_COMPILE_OPTIONS_C "")
 set(SFML_system_COMPILE_OPTIONS_CXX "")
-set(SFML_system_LIBS sfml-system-s-d)
+set(SFML_system_LIBS sfml-system-s)
 set(SFML_system_SYSTEM_LIBS winmm)
 set(SFML_system_FRAMEWORK_DIRS )
 set(SFML_system_FRAMEWORKS )
-set(SFML_system_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib/cmake/conan-official-sfml-targets.cmake")
+set(SFML_system_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib/cmake/conan-official-sfml-targets.cmake")
 set(SFML_system_DEPENDENCIES )
 set(SFML_system_LINKER_FLAGS_LIST
         "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:>"
@@ -195,20 +195,20 @@ set(SFML_system_LINKER_FLAGS_LIST
 
 ########### COMPONENT audio VARIABLES #############################################
 
-set(SFML_audio_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_audio_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_audio_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_audio_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib")
+set(SFML_audio_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_audio_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_audio_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_audio_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib")
 set(SFML_audio_RES_DIRS )
 set(SFML_audio_DEFINITIONS "-DSFML_STATIC")
 set(SFML_audio_COMPILE_DEFINITIONS "SFML_STATIC")
 set(SFML_audio_COMPILE_OPTIONS_C "")
 set(SFML_audio_COMPILE_OPTIONS_CXX "")
-set(SFML_audio_LIBS sfml-audio-s-d)
+set(SFML_audio_LIBS sfml-audio-s)
 set(SFML_audio_SYSTEM_LIBS )
 set(SFML_audio_FRAMEWORK_DIRS )
 set(SFML_audio_FRAMEWORKS )
-set(SFML_audio_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib/cmake/conan-official-sfml-targets.cmake")
+set(SFML_audio_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib/cmake/conan-official-sfml-targets.cmake")
 set(SFML_audio_DEPENDENCIES SFML::system FLAC::FLAC OpenAL::OpenAL Vorbis::Vorbis)
 set(SFML_audio_LINKER_FLAGS_LIST
         "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:>"
@@ -218,20 +218,20 @@ set(SFML_audio_LINKER_FLAGS_LIST
 
 ########### COMPONENT network VARIABLES #############################################
 
-set(SFML_network_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_network_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_network_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_network_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib")
+set(SFML_network_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_network_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_network_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_network_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib")
 set(SFML_network_RES_DIRS )
 set(SFML_network_DEFINITIONS "-DSFML_STATIC")
 set(SFML_network_COMPILE_DEFINITIONS "SFML_STATIC")
 set(SFML_network_COMPILE_OPTIONS_C "")
 set(SFML_network_COMPILE_OPTIONS_CXX "")
-set(SFML_network_LIBS sfml-network-s-d)
+set(SFML_network_LIBS sfml-network-s)
 set(SFML_network_SYSTEM_LIBS ws2_32)
 set(SFML_network_FRAMEWORK_DIRS )
 set(SFML_network_FRAMEWORKS )
-set(SFML_network_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib/cmake/conan-official-sfml-targets.cmake")
+set(SFML_network_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib/cmake/conan-official-sfml-targets.cmake")
 set(SFML_network_DEPENDENCIES SFML::system)
 set(SFML_network_LINKER_FLAGS_LIST
         "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:>"
@@ -241,20 +241,20 @@ set(SFML_network_LINKER_FLAGS_LIST
 
 ########### COMPONENT window VARIABLES #############################################
 
-set(SFML_window_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_window_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_window_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_window_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib")
+set(SFML_window_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_window_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_window_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_window_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib")
 set(SFML_window_RES_DIRS )
 set(SFML_window_DEFINITIONS "-DSFML_STATIC")
 set(SFML_window_COMPILE_DEFINITIONS "SFML_STATIC")
 set(SFML_window_COMPILE_OPTIONS_C "")
 set(SFML_window_COMPILE_OPTIONS_CXX "")
-set(SFML_window_LIBS sfml-window-s-d)
+set(SFML_window_LIBS sfml-window-s)
 set(SFML_window_SYSTEM_LIBS gdi32 winmm)
 set(SFML_window_FRAMEWORK_DIRS )
 set(SFML_window_FRAMEWORKS )
-set(SFML_window_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib/cmake/conan-official-sfml-targets.cmake")
+set(SFML_window_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib/cmake/conan-official-sfml-targets.cmake")
 set(SFML_window_DEPENDENCIES SFML::system opengl::opengl)
 set(SFML_window_LINKER_FLAGS_LIST
         "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:>"
@@ -264,20 +264,20 @@ set(SFML_window_LINKER_FLAGS_LIST
 
 ########### COMPONENT graphics VARIABLES #############################################
 
-set(SFML_graphics_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_graphics_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_graphics_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_graphics_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib")
+set(SFML_graphics_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_graphics_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_graphics_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_graphics_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib")
 set(SFML_graphics_RES_DIRS )
 set(SFML_graphics_DEFINITIONS "-DSFML_STATIC")
 set(SFML_graphics_COMPILE_DEFINITIONS "SFML_STATIC")
 set(SFML_graphics_COMPILE_OPTIONS_C "")
 set(SFML_graphics_COMPILE_OPTIONS_CXX "")
-set(SFML_graphics_LIBS sfml-graphics-s-d)
+set(SFML_graphics_LIBS sfml-graphics-s)
 set(SFML_graphics_SYSTEM_LIBS )
 set(SFML_graphics_FRAMEWORK_DIRS )
 set(SFML_graphics_FRAMEWORKS )
-set(SFML_graphics_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib/cmake/conan-official-sfml-targets.cmake")
+set(SFML_graphics_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib/cmake/conan-official-sfml-targets.cmake")
 set(SFML_graphics_DEPENDENCIES SFML::window Freetype::Freetype stb::stb)
 set(SFML_graphics_LINKER_FLAGS_LIST
         "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:>"
@@ -287,20 +287,20 @@ set(SFML_graphics_LINKER_FLAGS_LIST
 
 ########### COMPONENT main VARIABLES #############################################
 
-set(SFML_main_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_main_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_main_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(SFML_main_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib")
+set(SFML_main_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_main_INCLUDE_DIR "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_main_INCLUDES "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(SFML_main_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib")
 set(SFML_main_RES_DIRS )
 set(SFML_main_DEFINITIONS "-DSFML_STATIC")
 set(SFML_main_COMPILE_DEFINITIONS "SFML_STATIC")
 set(SFML_main_COMPILE_OPTIONS_C "")
 set(SFML_main_COMPILE_OPTIONS_CXX "")
-set(SFML_main_LIBS sfml-main-d)
+set(SFML_main_LIBS sfml-main)
 set(SFML_main_SYSTEM_LIBS )
 set(SFML_main_FRAMEWORK_DIRS )
 set(SFML_main_FRAMEWORKS )
-set(SFML_main_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib/cmake/conan-official-sfml-targets.cmake")
+set(SFML_main_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib/cmake/conan-official-sfml-targets.cmake")
 set(SFML_main_DEPENDENCIES )
 set(SFML_main_LINKER_FLAGS_LIST
         "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:>"
@@ -372,8 +372,8 @@ conan_package_library_targets("${SFML_system_LIBS}"
 
 set(SFML_system_LINK_LIBS ${SFML_system_LIB_TARGETS} ${SFML_system_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT audio FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -393,8 +393,8 @@ conan_package_library_targets("${SFML_audio_LIBS}"
 
 set(SFML_audio_LINK_LIBS ${SFML_audio_LIB_TARGETS} ${SFML_audio_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT network FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -414,8 +414,8 @@ conan_package_library_targets("${SFML_network_LIBS}"
 
 set(SFML_network_LINK_LIBS ${SFML_network_LIB_TARGETS} ${SFML_network_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT window FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -435,8 +435,8 @@ conan_package_library_targets("${SFML_window_LIBS}"
 
 set(SFML_window_LINK_LIBS ${SFML_window_LIB_TARGETS} ${SFML_window_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT graphics FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -456,8 +456,8 @@ conan_package_library_targets("${SFML_graphics_LIBS}"
 
 set(SFML_graphics_LINK_LIBS ${SFML_graphics_LIB_TARGETS} ${SFML_graphics_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT main FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -477,8 +477,8 @@ conan_package_library_targets("${SFML_main_LIBS}"
 
 set(SFML_main_LINK_LIBS ${SFML_main_LIB_TARGETS} ${SFML_main_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/" ${CMAKE_PREFIX_PATH})
 
 
 ########## TARGETS ##########################################################################

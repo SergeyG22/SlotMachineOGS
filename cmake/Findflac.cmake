@@ -99,9 +99,9 @@ endif()
 #############################################################################################
 
 
-set(FLAC_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(FLAC_INCLUDE_DIR "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(FLAC_INCLUDES "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
+set(FLAC_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(FLAC_INCLUDE_DIR "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(FLAC_INCLUDES "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
 set(FLAC_RES_DIRS )
 set(FLAC_DEFINITIONS "-DFLAC__NO_DLL")
 set(FLAC_LINKER_FLAGS_LIST
@@ -137,7 +137,7 @@ mark_as_advanced(FLAC_INCLUDE_DIRS
 
 # Find the real .lib/.a and add them to FLAC_LIBS and FLAC_LIBRARY_LIST
 set(FLAC_LIBRARY_LIST FLAC++ FLAC)
-set(FLAC_LIB_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(FLAC_LIB_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 
 # Gather all the libraries that should be linked to the targets (do not touch existing variables):
 set(_FLAC_DEPENDENCIES "${FLAC_FRAMEWORKS_FOUND} ${FLAC_SYSTEM_LIBS} Ogg::Ogg")
@@ -166,16 +166,16 @@ endforeach()
 set(FLAC_LIBRARIES_TARGETS "${FLAC_LIBRARIES_TARGETS};Ogg::Ogg")
 set(FLAC_LIBRARIES "${FLAC_LIBRARIES};Ogg::Ogg")
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_PREFIX_PATH})
 
 
 ########### COMPONENT FLAC VARIABLES #############################################
 
-set(FLAC_FLAC_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(FLAC_FLAC_INCLUDE_DIR "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(FLAC_FLAC_INCLUDES "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(FLAC_FLAC_LIB_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(FLAC_FLAC_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(FLAC_FLAC_INCLUDE_DIR "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(FLAC_FLAC_INCLUDES "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(FLAC_FLAC_LIB_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 set(FLAC_FLAC_RES_DIRS )
 set(FLAC_FLAC_DEFINITIONS "-DFLAC__NO_DLL")
 set(FLAC_FLAC_COMPILE_DEFINITIONS "FLAC__NO_DLL")
@@ -195,10 +195,10 @@ set(FLAC_FLAC_LINKER_FLAGS_LIST
 
 ########### COMPONENT FLAC++ VARIABLES #############################################
 
-set(FLAC_FLAC++_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(FLAC_FLAC++_INCLUDE_DIR "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(FLAC_FLAC++_INCLUDES "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(FLAC_FLAC++_LIB_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(FLAC_FLAC++_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(FLAC_FLAC++_INCLUDE_DIR "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(FLAC_FLAC++_INCLUDES "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(FLAC_FLAC++_LIB_DIRS "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 set(FLAC_FLAC++_RES_DIRS )
 set(FLAC_FLAC++_DEFINITIONS )
 set(FLAC_FLAC++_COMPILE_DEFINITIONS )
@@ -250,8 +250,8 @@ conan_package_library_targets("${FLAC_FLAC_LIBS}"
 
 set(FLAC_FLAC_LINK_LIBS ${FLAC_FLAC_LIB_TARGETS} ${FLAC_FLAC_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT FLAC++ FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -271,8 +271,8 @@ conan_package_library_targets("${FLAC_FLAC++_LIBS}"
 
 set(FLAC_FLAC++_LINK_LIBS ${FLAC_FLAC++_LIB_TARGETS} ${FLAC_FLAC++_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/" ${CMAKE_PREFIX_PATH})
 
 
 ########## TARGETS ##########################################################################

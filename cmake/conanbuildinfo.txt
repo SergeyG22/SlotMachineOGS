@@ -1,70 +1,70 @@
 [includedirs]
-C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/include
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/include/freetype2
+C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/include
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/include/freetype2
 C:/Users/Dolba/.conan/data/stb/cci.20210713/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include
-C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include
-C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
-C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/AL
-C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include
-C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/include
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/include
-C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
-C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli
-C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
-C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
+C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include
+C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include
+C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/AL
+C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include
+C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/include
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/include
+C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include
+C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli
+C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include
+C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include
 
 [libdirs]
-C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/lib
-C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib
-C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
-C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib
-C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/lib
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/lib
-C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
-C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
-C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
+C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/lib
+C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib
+C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib
+C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib
+C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/lib
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib
+C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib
+C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib
+C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib
 
 [bindirs]
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/bin
-C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/bin
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/bin
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/bin
+C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/bin
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/bin
 
 [resdirs]
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/res
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/res
 
 [builddirs]
-C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/
+C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/
 C:/Users/Dolba/.conan/data/opengl/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/lib/cmake
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/lib/cmake
 C:/Users/Dolba/.conan/data/stb/cci.20210713/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
-C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/
-C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
-C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/
-C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/lib/cmake
-C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
-C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
-C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
+C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/
+C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/
+C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/
+C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib/cmake
+C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/
+C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/
+C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/
 
 [libs]
-sfml-main-d
-sfml-graphics-s-d
-sfml-window-s-d
-sfml-network-s-d
-sfml-audio-s-d
-sfml-system-s-d
-freetyped
+sfml-main
+sfml-graphics-s
+sfml-window-s
+sfml-network-s
+sfml-audio-s
+sfml-system-s
+freetype
 FLAC++
 FLAC
 OpenAL32
 vorbisenc
 vorbisfile
 vorbis
-libpng16d
+libpng16
 bz2
 brotlidec-static
 brotlienc-static
@@ -113,10 +113,10 @@ SFML_STATIC
 
 
 [includedirs_sfml]
-C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include
+C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include
 
 [libdirs_sfml]
-C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib
+C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib
 
 [bindirs_sfml]
 
@@ -125,15 +125,15 @@ C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e309
 
 
 [builddirs_sfml]
-C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/
+C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/
 
 [libs_sfml]
-sfml-main-d
-sfml-graphics-s-d
-sfml-window-s-d
-sfml-network-s-d
-sfml-audio-s-d
-sfml-system-s-d
+sfml-main
+sfml-graphics-s
+sfml-window-s
+sfml-network-s
+sfml-audio-s
+sfml-system-s
 
 [system_libs_sfml]
 gdi32
@@ -168,7 +168,7 @@ SFML_STATIC
 
 
 [rootpath_sfml]
-C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723
+C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3
 
 [name_sfml]
 sfml
@@ -251,24 +251,24 @@ cmake_find_package_multi=opengl_system
 
 
 [includedirs_freetype]
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/include
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/include/freetype2
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/include
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/include/freetype2
 
 [libdirs_freetype]
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/lib
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/lib
 
 [bindirs_freetype]
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/bin
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/bin
 
 [resdirs_freetype]
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/res
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/res
 
 [builddirs_freetype]
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/lib/cmake
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/lib/cmake
 
 [libs_freetype]
-freetyped
+freetype
 
 [system_libs_freetype]
 
@@ -301,7 +301,7 @@ freetyped
 
 
 [rootpath_freetype]
-C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0
+C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16
 
 [name_freetype]
 freetype
@@ -384,19 +384,19 @@ cci.20210713
 
 
 [includedirs_flac]
-C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include
+C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include
 
 [libdirs_flac]
-C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib
+C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib
 
 [bindirs_flac]
-C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/bin
+C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/bin
 
 [resdirs_flac]
 
 
 [builddirs_flac]
-C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/
+C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/
 
 [libs_flac]
 FLAC++
@@ -433,7 +433,7 @@ FLAC__NO_DLL
 
 
 [rootpath_flac]
-C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47
+C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540
 
 [name_flac]
 flac
@@ -451,11 +451,11 @@ cmake_find_package_multi=flac
 
 
 [includedirs_openal]
-C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
-C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/AL
+C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include
+C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/AL
 
 [libdirs_openal]
-C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
+C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib
 
 [bindirs_openal]
 
@@ -464,7 +464,7 @@ C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e
 
 
 [builddirs_openal]
-C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
+C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/
 
 [libs_openal]
 OpenAL32
@@ -503,7 +503,7 @@ AL_LIBTYPE_STATIC
 
 
 [rootpath_openal]
-C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714
+C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab
 
 [name_openal]
 openal
@@ -520,10 +520,10 @@ cmake_find_package_multi=OpenAL
 
 
 [includedirs_vorbis]
-C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include
+C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include
 
 [libdirs_vorbis]
-C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib
+C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib
 
 [bindirs_vorbis]
 
@@ -532,7 +532,7 @@ C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60
 
 
 [builddirs_vorbis]
-C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/
+C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/
 
 [libs_vorbis]
 vorbisenc
@@ -570,7 +570,7 @@ vorbis
 
 
 [rootpath_vorbis]
-C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47
+C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540
 
 [name_vorbis]
 vorbis
@@ -588,10 +588,10 @@ pkg_config=vorbis-all-do-not-use
 
 
 [includedirs_libpng]
-C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/include
+C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/include
 
 [libdirs_libpng]
-C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/lib
+C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/lib
 
 [bindirs_libpng]
 
@@ -600,10 +600,10 @@ C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730
 
 
 [builddirs_libpng]
-C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/
+C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/
 
 [libs_libpng]
-libpng16d
+libpng16
 
 [system_libs_libpng]
 
@@ -636,7 +636,7 @@ libpng16d
 
 
 [rootpath_libpng]
-C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36
+C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859
 
 [name_libpng]
 libpng
@@ -653,20 +653,20 @@ cmake_find_package_multi=PNG
 
 
 [includedirs_bzip2]
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/include
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/include
 
 [libdirs_bzip2]
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/lib
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib
 
 [bindirs_bzip2]
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/bin
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/bin
 
 [resdirs_bzip2]
 
 
 [builddirs_bzip2]
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/lib/cmake
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib/cmake
 
 [libs_bzip2]
 bz2
@@ -702,7 +702,7 @@ bz2
 
 
 [rootpath_bzip2]
-C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a
+C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5
 
 [name_bzip2]
 bzip2
@@ -719,11 +719,11 @@ cmake_find_package_multi=BZip2
 
 
 [includedirs_brotli]
-C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
-C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli
+C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include
+C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli
 
 [libdirs_brotli]
-C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
+C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib
 
 [bindirs_brotli]
 
@@ -732,7 +732,7 @@ C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4
 
 
 [builddirs_brotli]
-C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
+C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/
 
 [libs_brotli]
 brotlidec-static
@@ -770,7 +770,7 @@ brotlicommon-static
 
 
 [rootpath_brotli]
-C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714
+C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab
 
 [name_brotli]
 brotli
@@ -787,10 +787,10 @@ cmake_find_package_multi=Brotli
 
 
 [includedirs_ogg]
-C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
+C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include
 
 [libdirs_ogg]
-C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
+C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib
 
 [bindirs_ogg]
 
@@ -799,7 +799,7 @@ C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855
 
 
 [builddirs_ogg]
-C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
+C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/
 
 [libs_ogg]
 ogg
@@ -835,7 +835,7 @@ ogg
 
 
 [rootpath_ogg]
-C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714
+C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab
 
 [name_ogg]
 ogg
@@ -852,10 +852,10 @@ cmake_find_package_multi=Ogg
 
 
 [includedirs_zlib]
-C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include
+C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include
 
 [libdirs_zlib]
-C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib
+C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib
 
 [bindirs_zlib]
 
@@ -864,7 +864,7 @@ C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e48
 
 
 [builddirs_zlib]
-C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/
+C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/
 
 [libs_zlib]
 zlib
@@ -900,7 +900,7 @@ zlib
 
 
 [rootpath_zlib]
-C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714
+C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab
 
 [name_zlib]
 zlib
@@ -932,16 +932,16 @@ LIBTOOL_VERSION=24.1.18
 [ENV_sfml]
 [ENV_opengl]
 [ENV_freetype]
-FT2_CONFIG=C:\Users\Dolba\.conan\data\freetype\2.11.1\_\_\package\c69bad48274e7fc45c887cddc32aa0459f0a81e0\bin\freetype-config
-PATH=["C:\Users\Dolba\.conan\data\freetype\2.11.1\_\_\package\c69bad48274e7fc45c887cddc32aa0459f0a81e0\bin"]
+FT2_CONFIG=C:\Users\Dolba\.conan\data\freetype\2.11.1\_\_\package\27b2733304cef577b19f699fec3a5bdbefb36d16\bin\freetype-config
+PATH=["C:\Users\Dolba\.conan\data\freetype\2.11.1\_\_\package\27b2733304cef577b19f699fec3a5bdbefb36d16\bin"]
 [ENV_stb]
 [ENV_flac]
-PATH=["C:\Users\Dolba\.conan\data\flac\1.3.3\_\_\package\b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47\bin"]
+PATH=["C:\Users\Dolba\.conan\data\flac\1.3.3\_\_\package\becff00909fb3d957c6b4ca60fa64d4e6a32a540\bin"]
 [ENV_openal]
 [ENV_vorbis]
 [ENV_libpng]
 [ENV_bzip2]
-PATH=["C:\Users\Dolba\.conan\data\bzip2\1.0.8\_\_\package\589a23dff5fdb23a7fb851223eb766480ead0a9a\bin"]
+PATH=["C:\Users\Dolba\.conan\data\bzip2\1.0.8\_\_\package\d16a91eadaaf5829b928b12d2f836ff7680d3df5\bin"]
 [ENV_brotli]
 [ENV_ogg]
 [ENV_zlib]

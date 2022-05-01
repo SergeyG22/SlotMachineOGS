@@ -1,7 +1,9 @@
+#define _GLIBCXX_USE_CXX11_ABI 1
 #pragma once
 #include <string>
 #include <iostream>
 #include <SFML/Graphics.hpp>
+
 
 class RenderingElement {
 	std::string m_file_name;

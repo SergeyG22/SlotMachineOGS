@@ -38,16 +38,16 @@ endmacro()
 #################
 ###  SFML
 #################
-set(CONAN_SFML_ROOT "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723")
-set(CONAN_INCLUDE_DIRS_SFML "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include")
-set(CONAN_LIB_DIRS_SFML "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib")
+set(CONAN_SFML_ROOT "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3")
+set(CONAN_INCLUDE_DIRS_SFML "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include")
+set(CONAN_LIB_DIRS_SFML "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib")
 set(CONAN_BIN_DIRS_SFML )
 set(CONAN_RES_DIRS_SFML )
 set(CONAN_SRC_DIRS_SFML )
-set(CONAN_BUILD_DIRS_SFML "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/")
+set(CONAN_BUILD_DIRS_SFML "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/")
 set(CONAN_FRAMEWORK_DIRS_SFML )
-set(CONAN_LIBS_SFML sfml-main-d sfml-graphics-s-d sfml-window-s-d sfml-network-s-d sfml-audio-s-d sfml-system-s-d)
-set(CONAN_PKG_LIBS_SFML sfml-main-d sfml-graphics-s-d sfml-window-s-d sfml-network-s-d sfml-audio-s-d sfml-system-s-d)
+set(CONAN_LIBS_SFML sfml-main sfml-graphics-s sfml-window-s sfml-network-s sfml-audio-s sfml-system-s)
+set(CONAN_PKG_LIBS_SFML sfml-main sfml-graphics-s sfml-window-s sfml-network-s sfml-audio-s sfml-system-s)
 set(CONAN_SYSTEM_LIBS_SFML gdi32 winmm ws2_32)
 set(CONAN_FRAMEWORKS_SFML )
 set(CONAN_FRAMEWORKS_FOUND_SFML "")  # Will be filled later
@@ -114,18 +114,18 @@ set(CONAN_LIBS_OPENGL ${CONAN_PKG_LIBS_OPENGL} ${CONAN_SYSTEM_LIBS_OPENGL} ${CON
 #################
 ###  FREETYPE
 #################
-set(CONAN_FREETYPE_ROOT "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0")
-set(CONAN_INCLUDE_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/include"
-			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/include/freetype2")
-set(CONAN_LIB_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/lib")
-set(CONAN_BIN_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/bin")
-set(CONAN_RES_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/res")
+set(CONAN_FREETYPE_ROOT "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16")
+set(CONAN_INCLUDE_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/include"
+			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/include/freetype2")
+set(CONAN_LIB_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/lib")
+set(CONAN_BIN_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/bin")
+set(CONAN_RES_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/res")
 set(CONAN_SRC_DIRS_FREETYPE )
-set(CONAN_BUILD_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/"
-			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/lib/cmake")
+set(CONAN_BUILD_DIRS_FREETYPE "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/"
+			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/lib/cmake")
 set(CONAN_FRAMEWORK_DIRS_FREETYPE )
-set(CONAN_LIBS_FREETYPE freetyped)
-set(CONAN_PKG_LIBS_FREETYPE freetyped)
+set(CONAN_LIBS_FREETYPE freetype)
+set(CONAN_PKG_LIBS_FREETYPE freetype)
 set(CONAN_SYSTEM_LIBS_FREETYPE )
 set(CONAN_FRAMEWORKS_FREETYPE )
 set(CONAN_FRAMEWORKS_FOUND_FREETYPE "")  # Will be filled later
@@ -192,13 +192,13 @@ set(CONAN_LIBS_STB ${CONAN_PKG_LIBS_STB} ${CONAN_SYSTEM_LIBS_STB} ${CONAN_FRAMEW
 #################
 ###  FLAC
 #################
-set(CONAN_FLAC_ROOT "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47")
-set(CONAN_INCLUDE_DIRS_FLAC "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(CONAN_LIB_DIRS_FLAC "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
-set(CONAN_BIN_DIRS_FLAC "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/bin")
+set(CONAN_FLAC_ROOT "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540")
+set(CONAN_INCLUDE_DIRS_FLAC "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(CONAN_LIB_DIRS_FLAC "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
+set(CONAN_BIN_DIRS_FLAC "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/bin")
 set(CONAN_RES_DIRS_FLAC )
 set(CONAN_SRC_DIRS_FLAC )
-set(CONAN_BUILD_DIRS_FLAC "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/")
+set(CONAN_BUILD_DIRS_FLAC "C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/")
 set(CONAN_FRAMEWORK_DIRS_FLAC )
 set(CONAN_LIBS_FLAC FLAC++ FLAC)
 set(CONAN_PKG_LIBS_FLAC FLAC++ FLAC)
@@ -230,14 +230,14 @@ set(CONAN_LIBS_FLAC ${CONAN_PKG_LIBS_FLAC} ${CONAN_SYSTEM_LIBS_FLAC} ${CONAN_FRA
 #################
 ###  OPENAL
 #################
-set(CONAN_OPENAL_ROOT "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714")
-set(CONAN_INCLUDE_DIRS_OPENAL "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/AL")
-set(CONAN_LIB_DIRS_OPENAL "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(CONAN_OPENAL_ROOT "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab")
+set(CONAN_INCLUDE_DIRS_OPENAL "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/AL")
+set(CONAN_LIB_DIRS_OPENAL "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 set(CONAN_BIN_DIRS_OPENAL )
 set(CONAN_RES_DIRS_OPENAL )
 set(CONAN_SRC_DIRS_OPENAL )
-set(CONAN_BUILD_DIRS_OPENAL "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/")
+set(CONAN_BUILD_DIRS_OPENAL "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/")
 set(CONAN_FRAMEWORK_DIRS_OPENAL )
 set(CONAN_LIBS_OPENAL OpenAL32)
 set(CONAN_PKG_LIBS_OPENAL OpenAL32)
@@ -269,13 +269,13 @@ set(CONAN_LIBS_OPENAL ${CONAN_PKG_LIBS_OPENAL} ${CONAN_SYSTEM_LIBS_OPENAL} ${CON
 #################
 ###  VORBIS
 #################
-set(CONAN_VORBIS_ROOT "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47")
-set(CONAN_INCLUDE_DIRS_VORBIS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include")
-set(CONAN_LIB_DIRS_VORBIS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib")
+set(CONAN_VORBIS_ROOT "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540")
+set(CONAN_INCLUDE_DIRS_VORBIS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include")
+set(CONAN_LIB_DIRS_VORBIS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib")
 set(CONAN_BIN_DIRS_VORBIS )
 set(CONAN_RES_DIRS_VORBIS )
 set(CONAN_SRC_DIRS_VORBIS )
-set(CONAN_BUILD_DIRS_VORBIS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/")
+set(CONAN_BUILD_DIRS_VORBIS "C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/")
 set(CONAN_FRAMEWORK_DIRS_VORBIS )
 set(CONAN_LIBS_VORBIS vorbisenc vorbisfile vorbis)
 set(CONAN_PKG_LIBS_VORBIS vorbisenc vorbisfile vorbis)
@@ -307,16 +307,16 @@ set(CONAN_LIBS_VORBIS ${CONAN_PKG_LIBS_VORBIS} ${CONAN_SYSTEM_LIBS_VORBIS} ${CON
 #################
 ###  LIBPNG
 #################
-set(CONAN_LIBPNG_ROOT "C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36")
-set(CONAN_INCLUDE_DIRS_LIBPNG "C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/include")
-set(CONAN_LIB_DIRS_LIBPNG "C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/lib")
+set(CONAN_LIBPNG_ROOT "C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859")
+set(CONAN_INCLUDE_DIRS_LIBPNG "C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/include")
+set(CONAN_LIB_DIRS_LIBPNG "C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/lib")
 set(CONAN_BIN_DIRS_LIBPNG )
 set(CONAN_RES_DIRS_LIBPNG )
 set(CONAN_SRC_DIRS_LIBPNG )
-set(CONAN_BUILD_DIRS_LIBPNG "C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/")
+set(CONAN_BUILD_DIRS_LIBPNG "C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/")
 set(CONAN_FRAMEWORK_DIRS_LIBPNG )
-set(CONAN_LIBS_LIBPNG libpng16d)
-set(CONAN_PKG_LIBS_LIBPNG libpng16d)
+set(CONAN_LIBS_LIBPNG libpng16)
+set(CONAN_PKG_LIBS_LIBPNG libpng16)
 set(CONAN_SYSTEM_LIBS_LIBPNG )
 set(CONAN_FRAMEWORKS_LIBPNG )
 set(CONAN_FRAMEWORKS_FOUND_LIBPNG "")  # Will be filled later
@@ -345,14 +345,14 @@ set(CONAN_LIBS_LIBPNG ${CONAN_PKG_LIBS_LIBPNG} ${CONAN_SYSTEM_LIBS_LIBPNG} ${CON
 #################
 ###  BZIP2
 #################
-set(CONAN_BZIP2_ROOT "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a")
-set(CONAN_INCLUDE_DIRS_BZIP2 "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/include")
-set(CONAN_LIB_DIRS_BZIP2 "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/lib")
-set(CONAN_BIN_DIRS_BZIP2 "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/bin")
+set(CONAN_BZIP2_ROOT "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5")
+set(CONAN_INCLUDE_DIRS_BZIP2 "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/include")
+set(CONAN_LIB_DIRS_BZIP2 "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib")
+set(CONAN_BIN_DIRS_BZIP2 "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/bin")
 set(CONAN_RES_DIRS_BZIP2 )
 set(CONAN_SRC_DIRS_BZIP2 )
-set(CONAN_BUILD_DIRS_BZIP2 "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/"
-			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/lib/cmake")
+set(CONAN_BUILD_DIRS_BZIP2 "C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/"
+			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib/cmake")
 set(CONAN_FRAMEWORK_DIRS_BZIP2 )
 set(CONAN_LIBS_BZIP2 bz2)
 set(CONAN_PKG_LIBS_BZIP2 bz2)
@@ -384,14 +384,14 @@ set(CONAN_LIBS_BZIP2 ${CONAN_PKG_LIBS_BZIP2} ${CONAN_SYSTEM_LIBS_BZIP2} ${CONAN_
 #################
 ###  BROTLI
 #################
-set(CONAN_BROTLI_ROOT "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714")
-set(CONAN_INCLUDE_DIRS_BROTLI "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(CONAN_LIB_DIRS_BROTLI "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(CONAN_BROTLI_ROOT "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab")
+set(CONAN_INCLUDE_DIRS_BROTLI "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(CONAN_LIB_DIRS_BROTLI "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 set(CONAN_BIN_DIRS_BROTLI )
 set(CONAN_RES_DIRS_BROTLI )
 set(CONAN_SRC_DIRS_BROTLI )
-set(CONAN_BUILD_DIRS_BROTLI "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/")
+set(CONAN_BUILD_DIRS_BROTLI "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/")
 set(CONAN_FRAMEWORK_DIRS_BROTLI )
 set(CONAN_LIBS_BROTLI brotlidec-static brotlienc-static brotlicommon-static)
 set(CONAN_PKG_LIBS_BROTLI brotlidec-static brotlienc-static brotlicommon-static)
@@ -423,13 +423,13 @@ set(CONAN_LIBS_BROTLI ${CONAN_PKG_LIBS_BROTLI} ${CONAN_SYSTEM_LIBS_BROTLI} ${CON
 #################
 ###  OGG
 #################
-set(CONAN_OGG_ROOT "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714")
-set(CONAN_INCLUDE_DIRS_OGG "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
-set(CONAN_LIB_DIRS_OGG "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(CONAN_OGG_ROOT "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab")
+set(CONAN_INCLUDE_DIRS_OGG "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(CONAN_LIB_DIRS_OGG "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 set(CONAN_BIN_DIRS_OGG )
 set(CONAN_RES_DIRS_OGG )
 set(CONAN_SRC_DIRS_OGG )
-set(CONAN_BUILD_DIRS_OGG "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/")
+set(CONAN_BUILD_DIRS_OGG "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/")
 set(CONAN_FRAMEWORK_DIRS_OGG )
 set(CONAN_LIBS_OGG ogg)
 set(CONAN_PKG_LIBS_OGG ogg)
@@ -461,13 +461,13 @@ set(CONAN_LIBS_OGG ${CONAN_PKG_LIBS_OGG} ${CONAN_SYSTEM_LIBS_OGG} ${CONAN_FRAMEW
 #################
 ###  ZLIB
 #################
-set(CONAN_ZLIB_ROOT "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714")
-set(CONAN_INCLUDE_DIRS_ZLIB "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
-set(CONAN_LIB_DIRS_ZLIB "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(CONAN_ZLIB_ROOT "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab")
+set(CONAN_INCLUDE_DIRS_ZLIB "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(CONAN_LIB_DIRS_ZLIB "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 set(CONAN_BIN_DIRS_ZLIB )
 set(CONAN_RES_DIRS_ZLIB )
 set(CONAN_SRC_DIRS_ZLIB )
-set(CONAN_BUILD_DIRS_ZLIB "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/")
+set(CONAN_BUILD_DIRS_ZLIB "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/")
 set(CONAN_FRAMEWORK_DIRS_ZLIB )
 set(CONAN_LIBS_ZLIB zlib)
 set(CONAN_PKG_LIBS_ZLIB zlib)
@@ -502,9 +502,9 @@ set(CONAN_PACKAGE_NAME Libraries)
 set(CONAN_PACKAGE_VERSION None)
 
 set(CONAN_SETTINGS_ARCH "x86_64")
-set(CONAN_SETTINGS_BUILD_TYPE "Debug")
+set(CONAN_SETTINGS_BUILD_TYPE "Release")
 set(CONAN_SETTINGS_COMPILER "Visual Studio")
-set(CONAN_SETTINGS_COMPILER_RUNTIME "MDd")
+set(CONAN_SETTINGS_COMPILER_RUNTIME "MD")
 set(CONAN_SETTINGS_COMPILER_VERSION "16")
 set(CONAN_SETTINGS_OS "Windows")
 
@@ -516,37 +516,37 @@ set(CONAN_CMD_SHARED_LINKER_FLAGS ${CONAN_SHARED_LINKER_FLAGS})
 set(CONAN_CMD_C_FLAGS ${CONAN_C_FLAGS})
 # Defining accumulated conan variables for all deps
 
-set(CONAN_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/include"
-			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/include"
-			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/include/freetype2"
+set(CONAN_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/include"
+			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/include"
+			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/include/freetype2"
 			"C:/Users/Dolba/.conan/data/stb/cci.20210713/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"
-			"C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include"
-			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/AL"
-			"C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/include"
-			"C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/include"
-			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli"
-			"C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include" ${CONAN_INCLUDE_DIRS})
-set(CONAN_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/lib"
-			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/lib"
-			"C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib"
-			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib"
-			"C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/lib"
-			"C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/lib"
-			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/lib"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib"
-			"C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib"
-			"C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib" ${CONAN_LIB_DIRS})
-set(CONAN_BIN_DIRS "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/bin"
-			"C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/bin"
-			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/bin" ${CONAN_BIN_DIRS})
-set(CONAN_RES_DIRS "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/res" ${CONAN_RES_DIRS})
+			"C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include"
+			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/AL"
+			"C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/include"
+			"C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/include"
+			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli"
+			"C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include" ${CONAN_INCLUDE_DIRS})
+set(CONAN_LIB_DIRS "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/lib"
+			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/lib"
+			"C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib"
+			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib"
+			"C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/lib"
+			"C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/lib"
+			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib"
+			"C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib"
+			"C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib" ${CONAN_LIB_DIRS})
+set(CONAN_BIN_DIRS "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/bin"
+			"C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/bin"
+			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/bin" ${CONAN_BIN_DIRS})
+set(CONAN_RES_DIRS "C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/res" ${CONAN_RES_DIRS})
 set(CONAN_FRAMEWORK_DIRS  ${CONAN_FRAMEWORK_DIRS})
-set(CONAN_LIBS sfml-main-d sfml-graphics-s-d sfml-window-s-d sfml-network-s-d sfml-audio-s-d sfml-system-s-d freetyped FLAC++ FLAC OpenAL32 vorbisenc vorbisfile vorbis libpng16d bz2 brotlidec-static brotlienc-static brotlicommon-static ogg zlib ${CONAN_LIBS})
-set(CONAN_PKG_LIBS sfml-main-d sfml-graphics-s-d sfml-window-s-d sfml-network-s-d sfml-audio-s-d sfml-system-s-d freetyped FLAC++ FLAC OpenAL32 vorbisenc vorbisfile vorbis libpng16d bz2 brotlidec-static brotlienc-static brotlicommon-static ogg zlib ${CONAN_PKG_LIBS})
+set(CONAN_LIBS sfml-main sfml-graphics-s sfml-window-s sfml-network-s sfml-audio-s sfml-system-s freetype FLAC++ FLAC OpenAL32 vorbisenc vorbisfile vorbis libpng16 bz2 brotlidec-static brotlienc-static brotlicommon-static ogg zlib ${CONAN_LIBS})
+set(CONAN_PKG_LIBS sfml-main sfml-graphics-s sfml-window-s sfml-network-s sfml-audio-s sfml-system-s freetype FLAC++ FLAC OpenAL32 vorbisenc vorbisfile vorbis libpng16 bz2 brotlidec-static brotlienc-static brotlicommon-static ogg zlib ${CONAN_PKG_LIBS})
 set(CONAN_SYSTEM_LIBS gdi32 ws2_32 opengl32 winmm ole32 shell32 User32 ${CONAN_SYSTEM_LIBS})
 set(CONAN_FRAMEWORKS  ${CONAN_FRAMEWORKS})
 set(CONAN_FRAMEWORKS_FOUND "")  # Will be filled later
@@ -555,20 +555,20 @@ set(CONAN_DEFINES "-DAL_LIBTYPE_STATIC"
 			"-DSTB_TEXTEDIT_KEYTYPE=unsigned"
 			"-DSFML_STATIC" ${CONAN_DEFINES})
 set(CONAN_BUILD_MODULES_PATHS  ${CONAN_BUILD_MODULES_PATHS})
-set(CONAN_CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/d02765dd8ac3899f2886509787e30924520dd723/"
+set(CONAN_CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/sfml/2.5.1/_/_/package/803ff95d96189ce0810e5136ff84a3c65e912be3/"
 			"C:/Users/Dolba/.conan/data/opengl/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/"
-			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/"
-			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/c69bad48274e7fc45c887cddc32aa0459f0a81e0/lib/cmake"
+			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/"
+			"C:/Users/Dolba/.conan/data/freetype/2.11.1/_/_/package/27b2733304cef577b19f699fec3a5bdbefb36d16/lib/cmake"
 			"C:/Users/Dolba/.conan/data/stb/cci.20210713/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/"
-			"C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/"
-			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/"
-			"C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/b8a7c0e3d5f7f2dd0a4cf862cb60ff9f1b73be47/"
-			"C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/8b1ef0ec9599374db4689199730c00a0d5f4de36/"
-			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/"
-			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/589a23dff5fdb23a7fb851223eb766480ead0a9a/lib/cmake"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/"
-			"C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/"
-			"C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CONAN_CMAKE_MODULE_PATH})
+			"C:/Users/Dolba/.conan/data/flac/1.3.3/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/"
+			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/"
+			"C:/Users/Dolba/.conan/data/vorbis/1.3.7/_/_/package/becff00909fb3d957c6b4ca60fa64d4e6a32a540/"
+			"C:/Users/Dolba/.conan/data/libpng/1.6.37/_/_/package/ce650d9f1f1c1c0839cf0694a55c1351ddbed859/"
+			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/"
+			"C:/Users/Dolba/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib/cmake"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/"
+			"C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/"
+			"C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CONAN_CMAKE_MODULE_PATH})
 
 set(CONAN_CXX_FLAGS " ${CONAN_CXX_FLAGS}")
 set(CONAN_SHARED_LINKER_FLAGS " ${CONAN_SHARED_LINKER_FLAGS}")

@@ -80,11 +80,11 @@ find_package_handle_standard_args(OpenAL REQUIRED_VARS
 mark_as_advanced(OpenAL_FOUND OpenAL_VERSION)
 
 
-set(OpenAL_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/AL")
-set(OpenAL_INCLUDE_DIR "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include;C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/AL")
-set(OpenAL_INCLUDES "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/AL")
+set(OpenAL_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/AL")
+set(OpenAL_INCLUDE_DIR "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include;C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/AL")
+set(OpenAL_INCLUDES "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/AL")
 set(OpenAL_RES_DIRS )
 set(OpenAL_DEFINITIONS "-DAL_LIBTYPE_STATIC")
 set(OpenAL_LINKER_FLAGS_LIST
@@ -103,7 +103,7 @@ set(OpenAL_SYSTEM_LIBS winmm ole32 shell32 User32)
 set(OpenAL_FRAMEWORK_DIRS )
 set(OpenAL_FRAMEWORKS )
 set(OpenAL_FRAMEWORKS_FOUND "") # Will be filled later
-set(OpenAL_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib/cmake/conan-official-openal-variables.cmake")
+set(OpenAL_BUILD_MODULES_PATHS "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib/cmake/conan-official-openal-variables.cmake")
 
 conan_find_apple_frameworks(OpenAL_FRAMEWORKS_FOUND "${OpenAL_FRAMEWORKS}" "${OpenAL_FRAMEWORK_DIRS}")
 
@@ -120,7 +120,7 @@ mark_as_advanced(OpenAL_INCLUDE_DIRS
 
 # Find the real .lib/.a and add them to OpenAL_LIBS and OpenAL_LIBRARY_LIST
 set(OpenAL_LIBRARY_LIST OpenAL32)
-set(OpenAL_LIB_DIRS "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(OpenAL_LIB_DIRS "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 
 # Gather all the libraries that should be linked to the targets (do not touch existing variables):
 set(_OpenAL_DEPENDENCIES "${OpenAL_FRAMEWORKS_FOUND} ${OpenAL_SYSTEM_LIBS} ")
@@ -149,8 +149,8 @@ endforeach()
 set(OpenAL_LIBRARIES_TARGETS "${OpenAL_LIBRARIES_TARGETS};")
 set(OpenAL_LIBRARIES "${OpenAL_LIBRARIES};")
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/openal/1.21.1/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_PREFIX_PATH})
 
 if(NOT ${CMAKE_VERSION} VERSION_LESS "3.0")
     # Target approach

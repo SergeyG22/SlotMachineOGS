@@ -99,11 +99,11 @@ endif()
 #############################################################################################
 
 
-set(Brotli_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_INCLUDE_DIR "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include;C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_INCLUDES "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
+set(Brotli_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_INCLUDE_DIR "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include;C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_INCLUDES "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
 set(Brotli_RES_DIRS )
 set(Brotli_DEFINITIONS )
 set(Brotli_LINKER_FLAGS_LIST
@@ -139,7 +139,7 @@ mark_as_advanced(Brotli_INCLUDE_DIRS
 
 # Find the real .lib/.a and add them to Brotli_LIBS and Brotli_LIBRARY_LIST
 set(Brotli_LIBRARY_LIST brotlidec-static brotlienc-static brotlicommon-static)
-set(Brotli_LIB_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(Brotli_LIB_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 
 # Gather all the libraries that should be linked to the targets (do not touch existing variables):
 set(_Brotli_DEPENDENCIES "${Brotli_FRAMEWORKS_FOUND} ${Brotli_SYSTEM_LIBS} ")
@@ -168,18 +168,18 @@ endforeach()
 set(Brotli_LIBRARIES_TARGETS "${Brotli_LIBRARIES_TARGETS};")
 set(Brotli_LIBRARIES "${Brotli_LIBRARIES};")
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_PREFIX_PATH})
 
 
 ########### COMPONENT brotlicommon VARIABLES #############################################
 
-set(Brotli_brotlicommon_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_brotlicommon_INCLUDE_DIR "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include;C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_brotlicommon_INCLUDES "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_brotlicommon_LIB_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(Brotli_brotlicommon_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_brotlicommon_INCLUDE_DIR "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include;C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_brotlicommon_INCLUDES "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_brotlicommon_LIB_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 set(Brotli_brotlicommon_RES_DIRS )
 set(Brotli_brotlicommon_DEFINITIONS )
 set(Brotli_brotlicommon_COMPILE_DEFINITIONS )
@@ -199,12 +199,12 @@ set(Brotli_brotlicommon_LINKER_FLAGS_LIST
 
 ########### COMPONENT brotlienc VARIABLES #############################################
 
-set(Brotli_brotlienc_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_brotlienc_INCLUDE_DIR "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include;C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_brotlienc_INCLUDES "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_brotlienc_LIB_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(Brotli_brotlienc_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_brotlienc_INCLUDE_DIR "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include;C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_brotlienc_INCLUDES "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_brotlienc_LIB_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 set(Brotli_brotlienc_RES_DIRS )
 set(Brotli_brotlienc_DEFINITIONS )
 set(Brotli_brotlienc_COMPILE_DEFINITIONS )
@@ -224,12 +224,12 @@ set(Brotli_brotlienc_LINKER_FLAGS_LIST
 
 ########### COMPONENT brotlidec VARIABLES #############################################
 
-set(Brotli_brotlidec_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_brotlidec_INCLUDE_DIR "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include;C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_brotlidec_INCLUDES "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include"
-			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include/brotli")
-set(Brotli_brotlidec_LIB_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(Brotli_brotlidec_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_brotlidec_INCLUDE_DIR "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include;C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_brotlidec_INCLUDES "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include/brotli")
+set(Brotli_brotlidec_LIB_DIRS "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 set(Brotli_brotlidec_RES_DIRS )
 set(Brotli_brotlidec_DEFINITIONS )
 set(Brotli_brotlidec_COMPILE_DEFINITIONS )
@@ -275,8 +275,8 @@ conan_package_library_targets("${Brotli_brotlicommon_LIBS}"
 
 set(Brotli_brotlicommon_LINK_LIBS ${Brotli_brotlicommon_LIB_TARGETS} ${Brotli_brotlicommon_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT brotlienc FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -296,8 +296,8 @@ conan_package_library_targets("${Brotli_brotlienc_LIBS}"
 
 set(Brotli_brotlienc_LINK_LIBS ${Brotli_brotlienc_LIB_TARGETS} ${Brotli_brotlienc_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_PREFIX_PATH})
 
 ########## COMPONENT brotlidec FIND LIBRARIES & FRAMEWORKS / DYNAMIC VARS #############
 
@@ -317,8 +317,8 @@ conan_package_library_targets("${Brotli_brotlidec_LIBS}"
 
 set(Brotli_brotlidec_LINK_LIBS ${Brotli_brotlidec_LIB_TARGETS} ${Brotli_brotlidec_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/brotli/1.0.9/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_PREFIX_PATH})
 
 
 ########## TARGETS ##########################################################################

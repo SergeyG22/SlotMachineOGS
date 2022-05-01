@@ -80,9 +80,9 @@ find_package_handle_standard_args(ZLIB REQUIRED_VARS
 mark_as_advanced(ZLIB_FOUND ZLIB_VERSION)
 
 
-set(ZLIB_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
-set(ZLIB_INCLUDE_DIR "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
-set(ZLIB_INCLUDES "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
+set(ZLIB_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(ZLIB_INCLUDE_DIR "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(ZLIB_INCLUDES "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
 set(ZLIB_RES_DIRS )
 set(ZLIB_DEFINITIONS )
 set(ZLIB_LINKER_FLAGS_LIST
@@ -118,7 +118,7 @@ mark_as_advanced(ZLIB_INCLUDE_DIRS
 
 # Find the real .lib/.a and add them to ZLIB_LIBS and ZLIB_LIBRARY_LIST
 set(ZLIB_LIBRARY_LIST zlib)
-set(ZLIB_LIB_DIRS "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(ZLIB_LIB_DIRS "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 
 # Gather all the libraries that should be linked to the targets (do not touch existing variables):
 set(_ZLIB_DEPENDENCIES "${ZLIB_FRAMEWORKS_FOUND} ${ZLIB_SYSTEM_LIBS} ")
@@ -147,8 +147,8 @@ endforeach()
 set(ZLIB_LIBRARIES_TARGETS "${ZLIB_LIBRARIES_TARGETS};")
 set(ZLIB_LIBRARIES "${ZLIB_LIBRARIES};")
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_PREFIX_PATH})
 
 if(NOT ${CMAKE_VERSION} VERSION_LESS "3.0")
     # Target approach

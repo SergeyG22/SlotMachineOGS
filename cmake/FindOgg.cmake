@@ -99,9 +99,9 @@ endif()
 #############################################################################################
 
 
-set(Ogg_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
-set(Ogg_INCLUDE_DIR "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
-set(Ogg_INCLUDES "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
+set(Ogg_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(Ogg_INCLUDE_DIR "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(Ogg_INCLUDES "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
 set(Ogg_RES_DIRS )
 set(Ogg_DEFINITIONS )
 set(Ogg_LINKER_FLAGS_LIST
@@ -137,7 +137,7 @@ mark_as_advanced(Ogg_INCLUDE_DIRS
 
 # Find the real .lib/.a and add them to Ogg_LIBS and Ogg_LIBRARY_LIST
 set(Ogg_LIBRARY_LIST ogg)
-set(Ogg_LIB_DIRS "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(Ogg_LIB_DIRS "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 
 # Gather all the libraries that should be linked to the targets (do not touch existing variables):
 set(_Ogg_DEPENDENCIES "${Ogg_FRAMEWORKS_FOUND} ${Ogg_SYSTEM_LIBS} ")
@@ -166,16 +166,16 @@ endforeach()
 set(Ogg_LIBRARIES_TARGETS "${Ogg_LIBRARIES_TARGETS};")
 set(Ogg_LIBRARIES "${Ogg_LIBRARIES};")
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_PREFIX_PATH})
 
 
 ########### COMPONENT ogg VARIABLES #############################################
 
-set(Ogg_ogg_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
-set(Ogg_ogg_INCLUDE_DIR "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
-set(Ogg_ogg_INCLUDES "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/include")
-set(Ogg_ogg_LIB_DIRS "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/lib")
+set(Ogg_ogg_INCLUDE_DIRS "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(Ogg_ogg_INCLUDE_DIR "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(Ogg_ogg_INCLUDES "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(Ogg_ogg_LIB_DIRS "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
 set(Ogg_ogg_RES_DIRS )
 set(Ogg_ogg_DEFINITIONS )
 set(Ogg_ogg_COMPILE_DEFINITIONS )
@@ -221,8 +221,8 @@ conan_package_library_targets("${Ogg_ogg_LIBS}"
 
 set(Ogg_ogg_LINK_LIBS ${Ogg_ogg_LIB_TARGETS} ${Ogg_ogg_LIBS_FRAMEWORKS_DEPS})
 
-set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_MODULE_PATH})
-set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/d057732059ea44a47760900cb5e4855d2bea8714/" ${CMAKE_PREFIX_PATH})
+set(CMAKE_MODULE_PATH "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_MODULE_PATH})
+set(CMAKE_PREFIX_PATH "C:/Users/Dolba/.conan/data/ogg/1.3.4/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CMAKE_PREFIX_PATH})
 
 
 ########## TARGETS ##########################################################################
