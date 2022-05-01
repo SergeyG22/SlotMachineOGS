@@ -1,5 +1,8 @@
 ### SlotMachine
 
+[![CI - Windows](https://github.com/SergeyG22/SlotMachineOGS/actions/workflows/windows_builds.yml/badge.svg)](https://github.com/SergeyG22/SlotMachineOGS/actions/workflows/windows_builds.yml)<br>
+[![CI - linux](https://github.com/SergeyG22/SlotMachineOGS/actions/workflows/linux_builds.yml/badge.svg)](https://github.com/SergeyG22/SlotMachineOGS/actions/workflows/linux_builds.yml)<br>
+Not tested under MacOS (no distribution).<br><br>
 The application is a model of a slot machine with the ability to rotate and stop the slots. If the player does not press the stop button, the reels will automatically stop after 15 seconds.
 
 ### Installing dependencies
