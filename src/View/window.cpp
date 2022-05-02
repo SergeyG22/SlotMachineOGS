@@ -6,7 +6,7 @@ sf::RenderWindow* Window::getWindowPtr() {
 	return &m_window;
 }
 
-Window::Window(std::vector<Spin>&rollers, GraphicObjects& graphic_objects) : m_rollers(rollers), m_graphic_objects(graphic_objects) {
+Window::Window(std::vector<Spin>& rollers, GraphicObjects& graphic_objects) : m_rollers(rollers), m_graphic_objects(graphic_objects) {
 
 }
 

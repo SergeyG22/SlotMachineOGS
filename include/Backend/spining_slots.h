@@ -9,9 +9,9 @@
 
 class SpiningSlots: public StateMachine {
 	std::vector<Spin>& m_rollers; 
-	std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>m_timer_ptr;
+	std::pair<std::shared_ptr<Timer>,std::shared_ptr<Timer>> m_timer_ptr;
 	std::shared_ptr<Display> m_display_ptr;
-	std::shared_ptr<Controller>m_controller_ptr;
+	std::shared_ptr<Controller> m_controller_ptr;
 	GraphicObjects& m_graphic_objects;
 	bool m_spin_rollers = true;
 public:

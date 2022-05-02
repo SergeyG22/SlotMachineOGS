@@ -5,8 +5,8 @@
 #include <iostream>
 
 class PkController: public Controller {
-	std::shared_ptr<Display>m_window_ptr;
-	std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>m_timer_ptr;
+	std::shared_ptr<Display> m_window_ptr;
+	std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>> m_timer_ptr;
 	std::vector<Spin>& m_rollers;
 	const GraphicObjects& m_graphic_objects_ptr;
 	bool mouseEvent(const sf::Event&, const sf::Vector2f&);

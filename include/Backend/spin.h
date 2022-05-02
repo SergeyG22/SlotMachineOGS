@@ -14,7 +14,7 @@ class Spin {
 	bool m_get_random_speed = false;
 	bool m_max_boost_reached = false;
 	bool m_speed_down_mode_is_enabled = false;
-	std::pair<double, double>m_speed_values;
+	std::pair<double, double> m_speed_values;
 	void setStopBoostValue();
 	void resetAllValues();
 	void checkInputFrame();

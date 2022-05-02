@@ -8,7 +8,7 @@
 class ShowResult: public StateMachine {
 	std::shared_ptr<Display> m_display_ptr;
 	GraphicObjects& m_graphic_objects;
-	std::shared_ptr<Controller>m_controller_ptr;
+	std::shared_ptr<Controller> m_controller_ptr;
 	double m_alpha = 0.0;
 	double m_boost_step = 2.5;
 	int m_booster = 0;

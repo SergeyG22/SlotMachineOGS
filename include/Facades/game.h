@@ -19,8 +19,8 @@ class Game {
 								 Spin { std::make_pair(ROLLER_D_MIN_SPEED, ROLLER_D_MAX_SPEED) }, 
 								 Spin { std::make_pair(ROLLER_E_MIN_SPEED, ROLLER_E_MAX_SPEED) } 
 							   };
-	std::vector<std::shared_ptr<StateMachine>>m_context;
-	std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>m_timer_ptr;
+	std::vector<std::shared_ptr<StateMachine>> m_context;
+	std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>> m_timer_ptr;
 public:
 	Game();
 	void gameLoop();

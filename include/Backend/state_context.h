@@ -6,7 +6,7 @@
 #include <iostream>
 
 class StateContext {
-	std::shared_ptr<StateMachine>m_state_machine_ptr;
+	std::shared_ptr<StateMachine> m_state_machine_ptr;
 public:
 	StateContext();
 	void setAction(std::shared_ptr<StateMachine>);
