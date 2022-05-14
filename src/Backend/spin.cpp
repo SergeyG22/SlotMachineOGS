@@ -1,5 +1,4 @@
-#include "../../include/Backend/spin.h"
-
+#include "Backend/spin.h"
 
 Spin::Spin(std::pair<double, double>speed_values) : m_speed_values(speed_values){
 	m_boost_step = getRandomSpeed();

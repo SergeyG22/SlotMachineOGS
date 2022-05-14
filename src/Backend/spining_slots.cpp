@@ -1,4 +1,4 @@
-#include "../../include/Backend/spining_slots.h"
+#include "Backend/spining_slots.h"
 
 extern int CURRENT_STATE;
 

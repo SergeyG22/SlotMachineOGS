@@ -1,4 +1,4 @@
-#include "../../include/View/display.h"
+#include "View/display.h"
 
 void Display::render(const std::shared_ptr<Model>& model,std::pair<std::shared_ptr<Timer>, std::shared_ptr<Timer>>& m_timer_ptr, std::vector<std::shared_ptr<StateMachine>>&) {
 	/*

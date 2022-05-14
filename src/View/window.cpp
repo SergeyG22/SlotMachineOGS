@@ -1,4 +1,4 @@
-#include "../../include/View/window.h"
+#include "View/window.h"
 
 extern int CURRENT_STATE;
 

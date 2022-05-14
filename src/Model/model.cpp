@@ -1,4 +1,4 @@
-#include "../../include/Model/model.h"
+#include "Model/model.h"
 
 const std::vector<std::vector<int>>& Model::getModel() {
 	return m_model;

@@ -49,12 +49,12 @@ const int MAX_BOOST = 50;
 const int STOP_BOOST_VALUE = 20;
 
 const int TIME_TO_STOP = 15;
-const int TIME_FROM_START_ALLOWS_PLAYER_TO_PRESS_STOP_BUTTON = 4;
+const int TIME_FROM_START_ALLOWS_PLAYER_TO_PRESS_STOP_BUTTON = 2;
 
 const int FPS = 60.0;
 const float VALUE_OF_SCREEN_RATE = 520.f;
 
-const int NUMBER_OF_FLICKERS = 3;
+const int NUMBER_OF_FLICKERS = 5;
 const int TOTAL_FLICKER_TIME = 275;
 
 

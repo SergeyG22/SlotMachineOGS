@@ -1,4 +1,4 @@
-#include "../../include/Graphics/graphic_objects.h"
+#include "Graphics/graphic_objects.h"
 
 GraphicObjects::GraphicObjects() {
 	roller_a = std::make_unique<RenderingElement>("rollers/roller_type_a.jpg");

@@ -1,4 +1,4 @@
-#include "../../include/Controller/pk_controller.h"
+#include "Controller/pk_controller.h"
 
 extern int CURRENT_STATE;
 extern int PREVIOUS_STATE;

@@ -1,4 +1,4 @@
-#include "../../include/Graphics/rendering_element.h"
+#include "Graphics/rendering_element.h"
 
 RenderingElement::RenderingElement(const std::string& file_name) {
 	if (!m_texture.loadFromFile("../resources/images/" + file_name)) {

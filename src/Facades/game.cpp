@@ -1,5 +1,4 @@
-#include "../../include/Facades/game.h"
-
+#include "Facades/game.h"
 
 Game::Game() {
 
